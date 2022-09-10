@@ -39,7 +39,11 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <h1>Rian Rahman</h1>
+          <span className="logo-name-brackets"> &lt; {" "}</span>
+            <span className="logo-name">
+              Rian Rahman {" "}
+            </span>
+          <span className="logo-name-brackets">{" "}/&gt;</span>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
