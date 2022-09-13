@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Personal-Website/static/css/main.dc9ce70d.css",
+    "main.js": "/Personal-Website/static/js/main.907329ad.js",
+    "static/js/415.4d6acbeb.chunk.js": "/Personal-Website/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Personal-Website/static/js/787.1ed0c42c.chunk.js",
+    "static/media/leaf.png": "/Personal-Website/static/media/leaf.ff2616f664c8c0ceab91.png",
+    "static/media/emotion.png": "/Personal-Website/static/media/emotion.eabfc16e7a146ab15778.png",
+    "static/media/suicide.png": "/Personal-Website/static/media/suicide.9c86cd7138a398c45fa5.png",
+    "static/media/Rian-Rahman-Resume.pdf": "/Personal-Website/static/media/Rian-Rahman-Resume.59e3040f47ba3f947db9.pdf",
+    "static/media/codeEditor.png": "/Personal-Website/static/media/codeEditor.1b585492490c8c1cace9.png",
+    "static/media/blog.png": "/Personal-Website/static/media/blog.fb8ab7f271a937d5fc01.png",
+    "static/media/home-main.svg": "/Personal-Website/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
+    "static/media/chatify.png": "/Personal-Website/static/media/chatify.7206044e0b5cdad44726.png",
+    "static/media/home-bg.jpg": "/Personal-Website/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/avatar.svg": "/Personal-Website/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
+    "static/media/pre.svg": "/Personal-Website/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/Personal-Website/index.html",
+    "main.dc9ce70d.css.map": "/Personal-Website/static/css/main.dc9ce70d.css.map",
+    "main.907329ad.js.map": "/Personal-Website/static/js/main.907329ad.js.map",
+    "415.4d6acbeb.chunk.js.map": "/Personal-Website/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Personal-Website/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc9ce70d.css",
+    "static/js/main.907329ad.js"
+  ]
+}
