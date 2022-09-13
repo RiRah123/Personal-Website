@@ -7,7 +7,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-
+import { Link } from "react-router-dom";
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
