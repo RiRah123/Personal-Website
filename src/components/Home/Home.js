@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
-import Type from "./Type";
+import Typewriter from "typewriter-effect";
 
 function Home() {
   return (
@@ -15,11 +15,29 @@ function Home() {
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hello There!{" "} <span className="wave" role="img" aria-labelledby="wave">👋🏻</span>
               </h1>
-              <h1 className="heading-name">
-                I'M <strong className="main-name"> Rian Rahman</strong>
-              </h1>
-              <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
+              <div style={{ paddingLeft: 50, paddingBottom: 40, textAlign: "left" }}>
+                <Typewriter
+                  options={{
+                    strings: "I'm Rian Rahman",
+                    autoStart: true,
+                    loop: false,
+                  }}
+                />
+              </div>
+              <div style={{ paddingLeft: 50, textAlign: "left" }}>
+                <Typewriter
+                  options={{
+                    strings: [
+                      "Software Engineer",
+                      "Full Stack Developer",
+                      "UI/UX Designer",
+                      "Undergraduate Researcher",
+                    ],
+                    autoStart: true,
+                    loop: true,
+                    deleteSpeed: 50,
+                  }}
+                />
               </div>
             </Col>
             <Col md={5} style={{ paddingBottom: 120 }}>

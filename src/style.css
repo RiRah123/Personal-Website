@@ -83,7 +83,6 @@ button:focus {
 	font-display: swap;
 }
 
-
 .sticky {
   background-color: #1b1a2ea9 !important;
   transition: all 0.3s ease-out 0s !important;
@@ -168,13 +167,25 @@ button:focus {
   width: 2.5em !important;
 }
 
+.logo-name-brackets {
+	font-family: "GoldenSignature";
+	font-size: 50px;
+	font-weight: 700;
+	font-variant-ligatures: no-common-ligatures;
+	-webkit-font-variant-ligatures: no-common-ligatures;
+	color:  white;
+}
+
 .logo-name {
 	font-family: "GoldenSignature";
 	font-size: 50px;
 	font-weight: normal;
 	font-variant-ligatures: no-common-ligatures;
 	-webkit-font-variant-ligatures: no-common-ligatures;
-  padding: 0 15px;
+  padding-bottom: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: -30px !important;
 	color:  white;
 }
 

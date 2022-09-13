@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
@@ -13,7 +13,7 @@ function About() {
       <Container>
         <Aboutcard />
         <h1 className="project-heading">
-          BRO PLEASE WORK <strong className="purple">Skillset </strong>
+          <strong className="purple"> Languages </strong> & <strong className="purple"> Frameworks </strong> & <strong className="purple"> Libraries </strong>
         </h1>
         <Techstack />
         <h1 className="project-heading">
