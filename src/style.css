@@ -75,6 +75,15 @@ button:focus {
 /* --------- */
 /* Navbar Section  */
 /* --------- */
+@font-face {
+	font-family: 'GoldenSignature';
+	font-style: normal;
+	font-weight: normal;
+	src: local('GoldenSignature'), url('./GoldenSignature.otf') format('woff');
+	font-display: swap;
+}
+
+
 .sticky {
   background-color: #1b1a2ea9 !important;
   transition: all 0.3s ease-out 0s !important;
@@ -157,6 +166,16 @@ button:focus {
 .logo {
   height: 1.4em !important;
   width: 2.5em !important;
+}
+
+.logo-name {
+	font-family: "GoldenSignature";
+	font-size: 50px;
+	font-weight: normal;
+	font-variant-ligatures: no-common-ligatures;
+	-webkit-font-variant-ligatures: no-common-ligatures;
+  padding: 0 15px;
+	color:  white;
 }
 
 .navbar-nav .nav-link {
