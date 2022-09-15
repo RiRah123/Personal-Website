@@ -4,13 +4,24 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import pdf from "../../Assets/Rian-Rahman-Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
-import { Document, Page, pdfjs } from "react-pdf";
+import { PDFDownloadLink, Document, Text, View, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
+const openPDF = () => {
+  fetch(pdf).then(response => {
+      response.blob().then(blob => {
+          const fileURL = window.URL.createObjectURL(blob);
+          let alink = document.createElement('a');
+          alink.href = fileURL;
+          alink.download = 'Rian-Rahman-Resume';
+          alink.click();
+      })
+  })
+}
+
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
-  const resumeLink = "";
 
   useEffect(() => {
     setWidth(window.innerWidth);
@@ -21,15 +32,14 @@ function ResumeNew() {
       <Container fluid className="resume-section">
         <Particle />
         <Row className="resume">
-          <Document file={resumeLink} className="d-flex justify-content-center">
+          <Document file={pdf} className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
-            target="_blank"
+            onClick={openPDF}
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />

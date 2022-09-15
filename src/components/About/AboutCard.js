@@ -5,7 +5,7 @@ import Tilt from "react-parallax-tilt";
 
 function AboutCard() {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container fluid className="about-section" id="about">
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
@@ -13,8 +13,9 @@ function AboutCard() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              My name is Rian Rahman, and I . Currently I am a third year Computional Media major at
+              <br/> Georgia Institute of Technology 🐝 with concentrations in Artificial Intelligence 🤖 
+              <br/> and Games 🎮.
               <br />
               <br />I am fluent in classics like
               <i>
