@@ -19,7 +19,7 @@ function AboutCard() {
               and projects.
               <br/> 
               <br/>
-              I am proficent in several programming languages as listed below, but <strong className="purple"> Java </strong> is by far my favorite!
+              I am proficent in several programming languages as listed below, but <i> <strong className="purple"> Java </strong> </i> is by far my favorite!
               <br/>
               <br/>
               I am passionate about various sectors of Computer Science. My field of interest's include developing new <i> <strong className="purple"> Web 

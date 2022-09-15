@@ -1,26 +1,26 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import Particle from "../Particle";
-import Github from "./GitHub";
-import Techstack from "./TechStack";
+import GitHub from "./GitHub";
+import TechStack from "./TechStack";
 import Aboutcard from "./AboutCard";
-import Toolstack from "./ToolStack";
+import ToolStack from "./ToolStack";
 
 function About() {
   return (
     <Container fluid className="about-section">
-      <Particle />
+      <Particle/>
       <Container>
-        <Aboutcard />
+        <Aboutcard/>
         <h1 className="project-heading">
           <strong className="purple"> Languages </strong> & <strong className="purple"> Frameworks </strong> & <strong className="purple"> Libraries </strong>
         </h1>
-        <Techstack />
+        <TechStack/>
         <h1 className="project-heading">
           Developer <strong className="purple"> Tools </strong>
         </h1>
-        <Toolstack />
-        <Github />
+        <ToolStack/>
+        <GitHub/>
       </Container>
     </Container>
   );
