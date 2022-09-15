@@ -1,10 +1,10 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import Particle from "../Particle";
-import Github from "./Github";
-import Techstack from "./Techstack";
+import Github from "./GitHub";
+import Techstack from "./TechStack";
 import Aboutcard from "./AboutCard";
-import Toolstack from "./Toolstack";
+import Toolstack from "./ToolStack";
 
 function About() {
   return (
@@ -17,7 +17,7 @@ function About() {
         </h1>
         <Techstack />
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          Developer <strong className="purple"> Tools </strong>
         </h1>
         <Toolstack />
         <Github />
