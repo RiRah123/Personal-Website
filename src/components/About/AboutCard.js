@@ -13,39 +13,21 @@ function AboutCard() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              My name is Rian Rahman. Currently, I am a third year Computional Media major at
-              <br/>  
-              <i> <strong className="purple"> Georgia Institute of Technology </strong> </i> 🐝 with concentrations in Artificial Intelligence 🤖 
-              <br/> and Games 🎮.
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Python. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              My name is Rian Rahman. Currently, I am a third year Computional Media 🎭 major at  <i> <strong className="purple"> Georgia 
+              Institute of Technology </strong> </i> 🐝 with a concentration in Artificial Intelligence 🤖 and Games 🎮. I have experience 
+              in full stack development through previous academic courses and internships, but I tend to prefer working on the frontend for applications
+              and projects.
+              <br/> 
+              <br/>
+              I am proficent in several programming languages as listed below, but <strong className="purple"> Java </strong> is by far my favorite!
+              <br/>
+              <br/>
+              I am passionate about various sectors of Computer Science. My field of interest's include developing new <i> <strong className="purple"> Web 
+              Products </strong> and <strong className="purple"> Pages </strong> </i> 🖥️ and areas related to {" "} <i> <strong className="purple"> Data 
+              Visualization </strong> </i> 💹 and <i> <strong className="purple"> User Interface Design </strong> </i> 🖌️.
+              <br/>
+              <br/>
+              Outside of school, I enjoy various hobbies, including playing chess ♟, listening to music 🎵, and watching anime ⛩️!
             </p>
           </Col>
           <Col md={4} className="myAvtar">

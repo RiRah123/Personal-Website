@@ -13,7 +13,7 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hello There!{" "} <span className="wave" role="img" aria-labelledby="wave">👋🏻</span>
+                Hello World!{" "} <span className="wave" role="img" aria-labelledby="wave">👋🏻</span>
               </h1>
               <div style={{ paddingLeft: 50, paddingBottom: 40, textAlign: "left" }}>
                 <Typewriter
@@ -24,7 +24,7 @@ function Home() {
                   }}
                 />
               </div>
-              <div style={{ paddingLeft: 50, textAlign: "left" }}>
+              <div style={{ paddingLeft: 50, paddingTop: 10, textAlign: "left" }}>
                 <Typewriter
                   options={{
                     strings: [
