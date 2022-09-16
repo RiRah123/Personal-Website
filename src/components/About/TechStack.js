@@ -17,34 +17,34 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiJava />
+        <SiJava/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPython />
+        <SiPython/>
       </Col>      
       <Col xs={4} md={2} className="tech-icons">
-        <SiCplusplus />
+        <SiCplusplus/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiJavascript />
+        <SiJavascript/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTypescript />
+        <SiTypescript/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiReact />
+        <SiReact/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMaterialui />
+        <SiMaterialui/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <SiNextdotjs/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiChartdotjs />
+        <SiChartdotjs/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSpringboot />
+        <SiSpringboot/>
       </Col>
     </Row>
   );
