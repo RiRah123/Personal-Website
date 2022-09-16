@@ -43,7 +43,7 @@ function Projects() {
               imgPath={ITunesSearchAPIApp}
               isBlog={false}
               title="iTunes Search API App"
-              description= "A JavaFX GUI Application, which displays a gallery of 20+ artwork images based on the search results of iTunes Search API App"
+              description= "A JavaFX GUI Application, which displays a gallery of 20+ artwork images based on the results of a user-entered query from the iTunes Search API App."
               ghLink="https://github.com/RiRah123/iTunes-Search-API-App"
               demoLink=""
             />
