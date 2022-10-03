@@ -16,7 +16,7 @@ function AnimatedRoutes() {
 
   return (
     <div>
-        <AnimatePresence>
+        <AnimatePresence inital={false}>
             <Routes location={location} key={location.pathname}>
                 <Route path="/" element={<Home />} />
                 <Route path="/project" element={<Projects />} />

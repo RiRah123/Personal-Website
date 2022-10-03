@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 function Home() {
   return (
-    <motion.div initial={{opacity: 1}} animate={{opacity: 1}} exit={{opacity: 0, transition: {duration: 0.4}}}>
+    <motion.div initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0, transition: {duration: 0.4}}}>
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
           <Row>
