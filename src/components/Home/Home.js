@@ -1,14 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
-import Particle from "../Particle";
 import Typewriter from "typewriter-effect";
+import { motion } from "framer-motion";
 
 function Home() {
   return (
-    <section>
+    <motion.div initial={{opacity: 1}} animate={{opacity: 1}} exit={{opacity: 0, transition: {duration: 0.4}}}>
       <Container fluid className="home-section" id="home">
-        <Particle/>
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
@@ -52,7 +51,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
-    </section>
+    </motion.div>
   );
 }
 
