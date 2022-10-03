@@ -336,6 +336,22 @@ button:focus {
   }
 }
 
+.img-fluid {
+  animation: updown 3s linear infinite;
+}
+
+@keyframes updown {
+  0% {
+      transform: translateY(-20px);
+  }
+  50% {
+      transform: translateY(20px);
+  }
+  100% {
+      transform: translateY(-20px);
+  }
+}
+
 .myAvtar {
   justify-content: center !important;
   padding-top: 8em !important;
@@ -346,18 +362,6 @@ button:focus {
     padding-top: 2em !important;
     padding-bottom: 2em !important;
   }
-}
-
-.home-about-section {
-  position: relative;
-  padding-bottom: 70px !important;
-  padding-top: 70px !important;
-}
-
-.home-about-body {
-  padding-top: 50px;
-  font-size: 1.2em !important;
-  text-align: left;
 }
 
 .home-about-social {
