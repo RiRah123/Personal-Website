@@ -272,6 +272,7 @@ button:focus {
     transform: rotate(0deg);
   }
 }
+
 #tsparticles {
   position: fixed !important;
   background-repeat: no-repeat !important;
@@ -292,6 +293,18 @@ button:focus {
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
+}
+
+.home-about-section {
+  position: relative;
+  padding-bottom: 70px !important;
+  padding-top: 70px !important;
+}
+
+.home-about-body {
+  padding-top: 50px;
+  font-size: 1.2em !important;
+  text-align: left;
 }
 
 .home-content {
@@ -336,19 +349,19 @@ button:focus {
   }
 }
 
-.img-fluid {
+#home-logo {
   animation: updown 3s linear infinite;
 }
 
 @keyframes updown {
   0% {
-      transform: translateY(-20px);
+      transform: translateY(-30px);
   }
   50% {
-      transform: translateY(20px);
+      transform: translateY(30px);
   }
   100% {
-      transform: translateY(-20px);
+      transform: translateY(-30px);
   }
 }
 
