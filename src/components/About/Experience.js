@@ -2,11 +2,29 @@ import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeli
 import "react-vertical-timeline-component/style.min.css";
 import NCRLogo from "../../Assets/images/ncr-logo.png";
 import UGALogo from "../../Assets/images/uga-logo.png";
+import VIPLogo from "../../Assets/images/vip-logo.png"
 import { Image } from "react-bootstrap";
 import {MdLocationOn} from "react-icons/md";
 
 function Experience() {
     let timelineElements = [
+        {
+            id: 3,
+            logo: VIPLogo,
+            company: "Georgia Tech VIP Program",
+            title: "Undergraduate Researcher",
+            location: "Atlanta, GA",
+            date: "January 2022 - Present",
+            description: 
+                    <div>
+                        <ul style={{marginTop: "1rem"}}>
+                            <li>Encoding an AI-based face recognition algorithm for miniature robotic blimps and autonomous underwater vehicles using TensorFlow, NumPy, and OpenCV</li>
+                            <li>Incorporating a Raspberry Pi for blimp which parses data from face recognition algorithm and uploads it onto an SSH server</li>
+                            <li>Creating a Python to MATLAB GUI that remodels a blimp’s pathfinding with an improved 30% in image quality and accuracy detection through deep learning techniques</li>
+                            <li>Facilitating with eight teammates to design a blimp that will broadcast a Georgia Tech basketball game with an attendance of 1,000+ people to a jumbotron</li>
+                        </ul>
+                    </div>
+        },
         {
             id: 2,
             logo: NCRLogo,
