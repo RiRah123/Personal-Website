@@ -2,6 +2,7 @@ import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeli
 import "react-vertical-timeline-component/style.min.css";
 import NCRLogo from "../../Assets/images/ncr-logo.png";
 import { Image } from "react-bootstrap";
+import {MdLocationOn} from "react-icons/md";
 
 function Experience() {
     let timelineElements = [
@@ -49,9 +50,10 @@ function Experience() {
                                     alignContent: "center",
                                     marginTop: "1rem"
                                 }}>
+                                    <MdLocationOn style={{marginRight: "0.2rem"}} color="red"/>
                                     <h5 className="vertical-timeline-element-subtitle">{element.location}</h5>
                                 </div>
-                                {element.description}
+                                <p id="experience-description">{element.description}</p>
                             </VerticalTimelineElement>
                         )
                     })
