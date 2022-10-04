@@ -5,6 +5,7 @@ import TechStack from "./TechStack";
 import Aboutcard from "./AboutCard";
 import ToolStack from "./ToolStack";
 import { motion } from "framer-motion";
+import Experience  from "./Experience";
 
 function About() {
   return (
@@ -12,6 +13,10 @@ function About() {
       <Container fluid className="about-section">
           <Container>
             <Aboutcard/>
+            <h1 className="project-heading">
+              My <strong className="purple"> Experience </strong>
+            </h1>
+            <Experience />
             <h1 className="project-heading">
               <strong className="purple"> Languages </strong> & <strong className="purple"> Frameworks </strong> & <strong className="purple"> Libraries </strong>
             </h1>
