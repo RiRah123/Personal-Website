@@ -35,8 +35,7 @@ function Footer() {
                   className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
- -
- +               </a>
+                </a>
               </li>
               <li className="social-icons">
                 <a
