@@ -647,9 +647,19 @@ button:focus {
   }
 }
 
-.experience-description {
-  font-size: 1.2em !important;
+.vertical-timeline-element-content {
   text-align: left;
+  font-size: 1.2em !important;
+  box-shadow: 0 0 0.25em 0.5em rgba(0, 0, 0, 0.25), 0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2em 2em !important;
+}
+
+.date { 
+  color: #FFFFF0 !important;
+}
+
+#description {
+  margin: 1.5em 0 2em 0;
 }
 
 /* --------- */

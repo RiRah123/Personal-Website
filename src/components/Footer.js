@@ -22,7 +22,7 @@ function Footer() {
                   href="https://github.com/RiRah123"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
@@ -32,10 +32,11 @@ function Footer() {
                   href="https://www.linkedin.com/in/rian-rahman02/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
-                </a>
+ -
+ +               </a>
               </li>
               <li className="social-icons">
                 <a
