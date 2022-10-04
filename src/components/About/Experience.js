@@ -1,13 +1,14 @@
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import NCRLogo from "../../Assets/images/ncr-logo.png";
+import UGALogo from "../../Assets/images/uga-logo.png";
 import { Image } from "react-bootstrap";
 import {MdLocationOn} from "react-icons/md";
 
 function Experience() {
     let timelineElements = [
         {
-            id: 1,
+            id: 2,
             logo: NCRLogo,
             company: "NCR Corportation",
             title: "Software Engineer Intern",
@@ -21,6 +22,21 @@ function Experience() {
                             <li>Extracted and visualized API data in Chart.js for top 10 organizations, enterprise units, and endpoints by total calls</li>
                             <li>Regularly met with internal managers over four sprints to demo dashboard and assess needs under the Scrum Methodology</li>
                             <li>Assisted in the deployment of the dashboard onto Google Cloud Platform using Helm, Kubernetes, and GitOps</li>
+                        </ul>
+                    </div>
+        },
+        {
+            id: 1,
+            logo: UGALogo,
+            company: "UGA Franklin College of Arts and Sciences",
+            title: "Undergraduate Teaching Assistant",
+            location: "Athens, GA",
+            date: "June 2021 - December 2021",
+            description: 
+                    <div>
+                        <ul style={{marginTop: "1rem"}}>
+                            <li>Provided feedback on weekly Java labs related to fundamental programming techniques for ~120 students over two semesters</li>
+                            <li>Contributed to 12 assignment evaluation tools written in Java that would automate the grading of student submission</li>
                         </ul>
                     </div>
         },
