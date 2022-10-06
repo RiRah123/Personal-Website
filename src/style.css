@@ -22,6 +22,67 @@ button:focus {
   box-shadow: none !important;
 }
 
+.cursor {
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  animation: cursorAnim .5s infinite alternate;
+  pointer-events: none;
+}
+
+.cursor::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border: 8px solid greenyellow;
+  border-radius: 50%;
+  opacity: .5;
+  top: 4px;
+  left: 4px;
+  animation: cursorAnimAfter .5s infinite alternate;
+}
+
+.expand {
+  animation: cursorAnimClick .5s forwards;
+  border: 1px solid red;
+}
+
+@keyframes cursorAnim {
+  from {
+      transform: scale(1);
+  }
+  to {
+      transform: scale(.7);
+  }
+}
+
+@keyframes cursorAnimAfter {
+  from {
+      transform: scale(1);
+  }
+  to {
+      transform: scale(.4);
+  }
+}
+
+@keyframes cursorAnimClick {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(3);
+  }
+  100% {
+      transform: scale(1);
+      opacity: 0;
+  }
+}
+
 /* --------- */
 /*  Preloader */
 /* --------- */
@@ -193,6 +254,7 @@ button:focus {
   color: white !important;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
+  cursor: none !important;
 }
 
 .nav-link {
