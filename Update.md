@@ -1,7 +1,7 @@
 Here are some updates that I would like to make to my Website:
 - Add transitions when changing pages
-- Make a cleaner preloader with your name and logo
-- Have a svg text animaton for front page
+- Make a svg text animation with your name before preloading
+- Have a animatied svg for front page
 - Add Experience section with timeline
 - Add more projects to project sections and revamp its layout
 - Custom cursor
