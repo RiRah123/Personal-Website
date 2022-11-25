@@ -22,7 +22,7 @@ button:focus {
   box-shadow: none !important;
 }
 
-.cursor {
+/* .cursor {
   width: 30px;
   height: 30px;
   border: 1px solid white;
@@ -81,7 +81,7 @@ button:focus {
       transform: scale(1);
       opacity: 0;
   }
-}
+} */
 
 /* --------- */
 /*  Preloader */
@@ -254,7 +254,7 @@ button:focus {
   color: white !important;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
-  cursor: none !important;
+  /* cursor: none !important; */
 }
 
 .nav-link {
