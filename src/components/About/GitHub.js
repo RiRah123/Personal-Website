@@ -1,6 +1,7 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import { Row } from "react-bootstrap";
+import ReactTooltip from 'react-tooltip';
 
 function Github() {
   return (
@@ -14,7 +15,9 @@ function Github() {
         blockMargin={5}
         color="#72EF36"
         fontSize={16}
-      />
+      >
+        <ReactTooltip html/>
+      </GitHubCalendar>
     </Row>
   );
 }
