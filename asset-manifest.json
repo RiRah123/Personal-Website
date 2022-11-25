@@ -1,27 +1,29 @@
 {
   "files": {
     "main.css": "/Personal-Website/static/css/main.478d5b85.css",
-    "main.js": "/Personal-Website/static/js/main.6a05bb0b.js",
+    "main.js": "/Personal-Website/static/js/main.430f03e6.js",
     "static/js/415.4d6acbeb.chunk.js": "/Personal-Website/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Personal-Website/static/js/787.1ed0c42c.chunk.js",
-    "static/media/unix-terminal-shell.png": "/Personal-Website/static/media/unix-terminal-shell.93bf722532cdedc24e45.png",
-    "static/media/itunes-search-api-app.png": "/Personal-Website/static/media/itunes-search-api-app.ddfbe5308598711a151b.png",
+    "static/media/ncr-go.gif": "/Personal-Website/static/media/ncr-go.e85130b16651922c39de.gif",
+    "static/media/itunes-search-api-app.gif": "/Personal-Website/static/media/itunes-search-api-app.4e7f4abd417d427645a5.gif",
+    "static/media/eatcode.gif": "/Personal-Website/static/media/eatcode.7c4520b923284f0d6089.gif",
+    "static/media/audur.gif": "/Personal-Website/static/media/audur.81fec972170e4e942c0d.gif",
     "static/media/GoldenSignature.otf": "/Personal-Website/static/media/GoldenSignature.0117d2c54e5b58d51ae3.otf",
+    "static/media/unix-terminal-shell.gif": "/Personal-Website/static/media/unix-terminal-shell.a59bada72110e05e9f31.gif",
     "static/media/home-main.svg": "/Personal-Website/static/media/home-main.60a6349cbef1ec66a9ff1369eba7007a.svg",
-    "static/media/Rian-Rahman-Resume.pdf": "/Personal-Website/static/media/Rian-Rahman-Resume.c4c61640beec7813882b.pdf",
+    "static/media/Rian-Rahman-Resume.pdf": "/Personal-Website/static/media/Rian-Rahman-Resume.efb14e68106d954431a3.pdf",
     "static/media/uga-logo.png": "/Personal-Website/static/media/uga-logo.8037a9e4ec1cd73959ca.png",
-    "static/media/ncr-go.png": "/Personal-Website/static/media/ncr-go.3601bfa61deb44d80d70.png",
     "static/media/home-bg.jpg": "/Personal-Website/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/avatar.svg": "/Personal-Website/static/media/avatar.047830d0d24323d64facc7a40e5e0ffd.svg",
     "static/media/pre.svg": "/Personal-Website/static/media/pre.fcda2b848533a1bebb57.svg",
     "index.html": "/Personal-Website/index.html",
     "main.478d5b85.css.map": "/Personal-Website/static/css/main.478d5b85.css.map",
-    "main.6a05bb0b.js.map": "/Personal-Website/static/js/main.6a05bb0b.js.map",
+    "main.430f03e6.js.map": "/Personal-Website/static/js/main.430f03e6.js.map",
     "415.4d6acbeb.chunk.js.map": "/Personal-Website/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Personal-Website/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.478d5b85.css",
-    "static/js/main.6a05bb0b.js"
+    "static/js/main.430f03e6.js"
   ]
 }
