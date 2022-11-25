@@ -6,26 +6,31 @@ import Aboutcard from "./AboutCard";
 import ToolStack from "./ToolStack";
 import { motion } from "framer-motion";
 import Experience  from "./Experience";
+import Fade from 'react-reveal/Fade';
 
 function About() {
   return (
     <motion.div initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0, transition: {duration: 0.4}}}>
       <Container fluid className="about-section">
           <Container>
-            <Aboutcard/>
-            <h1 className="project-heading">
-              My <strong className="purple"> Experience </strong>
-            </h1>
+            <Fade left>
+              <Aboutcard/>
+              <h1 className="project-heading">
+                My <strong className="purple"> Experience </strong>
+              </h1>
+            </Fade>
             <Experience />
-            <h1 className="project-heading">
-              <strong className="purple"> Languages </strong> & <strong className="purple"> Frameworks </strong> & <strong className="purple"> Libraries </strong>
-            </h1>
-            <TechStack/>
-            <h1 className="project-heading">
-              Developer <strong className="purple"> Tools </strong>
-            </h1>
-            <ToolStack/>
-            <GitHub/>
+            <Fade left>
+              <h1 className="project-heading">
+                <strong className="purple"> Languages </strong> & <strong className="purple"> Frameworks </strong> & <strong className="purple"> Libraries </strong>
+              </h1>
+              <TechStack/>
+              <h1 className="project-heading">
+                Developer <strong className="purple"> Tools </strong>
+              </h1>
+              <ToolStack/>
+              <GitHub/>
+            </Fade>
           </Container>
       </Container>
     </motion.div>

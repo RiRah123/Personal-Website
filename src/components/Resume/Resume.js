@@ -6,6 +6,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import { motion } from "framer-motion";
+import Fade from 'react-reveal/Fade';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function ResumeNew() {
@@ -30,11 +31,13 @@ function ResumeNew() {
   return (
     <motion.div initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0, transition: {duration: 0.4}}}>
       <Container fluid className="resume-section">
-        <Row className="resume">
-          <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-          </Document>
-        </Row>
+        <Fade left>
+          <Row className="resume">
+            <Document file={pdf} className="d-flex justify-content-center">
+              <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+            </Document>
+          </Row>
+        </Fade>
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"

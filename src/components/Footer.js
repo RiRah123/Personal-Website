@@ -13,8 +13,8 @@ function Footer() {
           <Col md={12} className="home-about-social">
             <h1>Let's Talk!</h1>
             <p>
-              Feel free to <span className="purple"> connect </span> with me or <span className="purple"> check out </span> 
-              <br/> my social media using the links below!
+                Feel free to <span className="purple"> connect </span> with me or <span className="purple"> check out </span> 
+                <br/> my social media using the links below!
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
