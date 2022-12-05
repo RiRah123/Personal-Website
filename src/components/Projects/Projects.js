@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import EatCode from "../../Assets/images/eatcode.gif";
 import Audur from "../../Assets/images/audur.gif";
 import NCRGo from "../../Assets/images/ncr-go.gif";
+import CandyCombaters from "../../Assets/images/candy-combaters.gif";
 import UNIXTerminalShell from "../../Assets/images/unix-terminal-shell.gif";
 import ITunesSearchAPIApp from "../../Assets/images/itunes-search-api-app.gif";
 import { motion } from "framer-motion";
@@ -49,6 +50,16 @@ function Projects() {
                 description="A React Native application built for NCR's Global Hackathon which provides an efficient shopping solution for customers by detecting a product's availability and in-store location (aisles) with computer vision technology."
                 ghLink="https://github.com/RiRah123/NCR-Go"
                 demoLink="https://www.youtube.com/watch?v=eCDzSWLUD4g"
+              />
+            </Col>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={CandyCombaters}
+                isBlog={false}
+                title="Candy Combaters"
+                description= "A two-player candy-themed game built with JavaScript and HTML Canvas, where each player controls their character using the keyboard and fights one another in a brawl to the death."
+                ghLink="https://github.com/RiRah123/Candy-Combaters"
+                demoLink="https://rirah123.github.io/Candy-Combaters/"
               />
             </Col>
             <Col md={4} className="project-card">
