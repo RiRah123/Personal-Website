@@ -6,6 +6,7 @@ import Audur from "../../Assets/images/audur.gif";
 import NCRGo from "../../Assets/images/ncr-go.gif";
 import CandyCombaters from "../../Assets/images/candy-combaters.gif";
 import UNIXTerminalShell from "../../Assets/images/unix-terminal-shell.gif";
+import AFrame3DReplica from "../../Assets/images/aframe-3d-replica.gif";
 import ITunesSearchAPIApp from "../../Assets/images/itunes-search-api-app.gif";
 import { motion } from "framer-motion";
 import Fade from 'react-reveal/Fade';
@@ -80,6 +81,16 @@ function Projects() {
                 description= "A JavaFX GUI application that displays a gallery of 20+ artwork images based on the results of a user-entered query from the iTunes Search API."
                 ghLink="https://github.com/RiRah123/iTunes-Search-API-App"
                 demoLink=""
+              />
+            </Col>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={AFrame3DReplica}
+                isBlog={false}
+                title="A-Frame 3D Replica"
+                description= "A VR enviorment of Vincent Willem van Gogh's Wheatfield with Crows that was built using the A-Frame library"
+                ghLink="https://github.com/RiRah123/Aframe-3D-Image-Replica"
+                demoLink="https://rirah123.github.io/Aframe-3D-Image-Replica/"
               />
             </Col>
           </Row>

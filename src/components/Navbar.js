@@ -32,7 +32,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
+        <Navbar.Brand href="http://rirah123.github.io/Personal-Website" className="d-flex">
           <span className="logo-name-brackets"> &lt; {" "}</span>
             <span className="logo-name">
               Rian Rahman {" "}
