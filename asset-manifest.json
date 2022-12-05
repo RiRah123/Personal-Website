@@ -1,30 +1,32 @@
 {
   "files": {
-    "main.css": "/Personal-Website/static/css/main.33782792.css",
-    "main.js": "/Personal-Website/static/js/main.29b9c428.js",
+    "main.css": "/Personal-Website/static/css/main.4ec46705.css",
+    "main.js": "/Personal-Website/static/js/main.be703f26.js",
     "static/js/415.4d6acbeb.chunk.js": "/Personal-Website/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Personal-Website/static/js/787.1ed0c42c.chunk.js",
+    "static/media/aframe-3d-replica.gif": "/Personal-Website/static/media/aframe-3d-replica.e989c9aa73bd549a49f1.gif",
+    "static/media/candy-combaters.gif": "/Personal-Website/static/media/candy-combaters.d98a374c88c26a37121c.gif",
     "static/media/ncr-go.gif": "/Personal-Website/static/media/ncr-go.e85130b16651922c39de.gif",
     "static/media/itunes-search-api-app.gif": "/Personal-Website/static/media/itunes-search-api-app.4e7f4abd417d427645a5.gif",
     "static/media/eatcode.gif": "/Personal-Website/static/media/eatcode.7c4520b923284f0d6089.gif",
     "static/media/audur.gif": "/Personal-Website/static/media/audur.81fec972170e4e942c0d.gif",
     "static/media/GoldenSignature.otf": "/Personal-Website/static/media/GoldenSignature.0117d2c54e5b58d51ae3.otf",
     "static/media/unix-terminal-shell.gif": "/Personal-Website/static/media/unix-terminal-shell.a59bada72110e05e9f31.gif",
-    "static/media/home-main.svg": "/Personal-Website/static/media/home-main.60a6349cbef1ec66a9ff1369eba7007a.svg",
+    "static/media/home-main.svg": "/Personal-Website/static/media/home-main.9a54a1ed8c56da727dc31430c68a08a7.svg",
     "static/media/Rian-Rahman-Resume.pdf": "/Personal-Website/static/media/Rian-Rahman-Resume.efb14e68106d954431a3.pdf",
     "static/media/uga-logo.png": "/Personal-Website/static/media/uga-logo.8037a9e4ec1cd73959ca.png",
     "static/media/home-bg.jpg": "/Personal-Website/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
-    "static/media/avatar.svg": "/Personal-Website/static/media/avatar.047830d0d24323d64facc7a40e5e0ffd.svg",
-    "static/media/java.svg": "/Personal-Website/static/media/java.fad25bb10fc6eb6afb159a042c76894e.svg",
-    "static/media/pre.svg": "/Personal-Website/static/media/pre.fcda2b848533a1bebb57.svg",
+    "static/media/avatar.svg": "/Personal-Website/static/media/avatar.5bf1507fd07b3f89d7fbaf2102ea7d9d.svg",
+    "static/media/java.svg": "/Personal-Website/static/media/java.1701b588e57240043c79deaad59fa2b1.svg",
+    "static/media/pre.svg": "/Personal-Website/static/media/pre.1af059b54be4323b3764.svg",
     "index.html": "/Personal-Website/index.html",
-    "main.33782792.css.map": "/Personal-Website/static/css/main.33782792.css.map",
-    "main.29b9c428.js.map": "/Personal-Website/static/js/main.29b9c428.js.map",
+    "main.4ec46705.css.map": "/Personal-Website/static/css/main.4ec46705.css.map",
+    "main.be703f26.js.map": "/Personal-Website/static/js/main.be703f26.js.map",
     "415.4d6acbeb.chunk.js.map": "/Personal-Website/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Personal-Website/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33782792.css",
-    "static/js/main.29b9c428.js"
+    "static/css/main.4ec46705.css",
+    "static/js/main.be703f26.js"
   ]
 }
