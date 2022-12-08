@@ -683,11 +683,12 @@ button:focus {
   }
 }
 
-.tech-icons:hover {
+/* .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
   border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
-}
+} */
+
 .tech-icon-images {
   padding: 20px !important;
   line-height: 1.6 !important;
