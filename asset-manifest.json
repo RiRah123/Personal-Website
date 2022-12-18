@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/Personal-Website/static/css/main.4ec46705.css",
-    "main.js": "/Personal-Website/static/js/main.b43b6504.js",
+    "main.js": "/Personal-Website/static/js/main.ef82f2f3.js",
     "static/js/415.4d6acbeb.chunk.js": "/Personal-Website/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Personal-Website/static/js/787.1ed0c42c.chunk.js",
     "static/media/aframe-3d-replica.gif": "/Personal-Website/static/media/aframe-3d-replica.e989c9aa73bd549a49f1.gif",
     "static/media/candy-combaters.gif": "/Personal-Website/static/media/candy-combaters.d98a374c88c26a37121c.gif",
     "static/media/ncr-go.gif": "/Personal-Website/static/media/ncr-go.e85130b16651922c39de.gif",
     "static/media/itunes-search-api-app.gif": "/Personal-Website/static/media/itunes-search-api-app.4e7f4abd417d427645a5.gif",
+    "static/media/transportation-fatality-visualisation.gif": "/Personal-Website/static/media/transportation-fatality-visualisation.69572c47109f7ef6a6b3.gif",
     "static/media/inventracker.gif": "/Personal-Website/static/media/inventracker.77f1e9a68669ba52cf54.gif",
     "static/media/eatcode.gif": "/Personal-Website/static/media/eatcode.7c4520b923284f0d6089.gif",
     "static/media/audur.gif": "/Personal-Website/static/media/audur.81fec972170e4e942c0d.gif",
@@ -22,12 +23,12 @@
     "static/media/pre.svg": "/Personal-Website/static/media/pre.1af059b54be4323b3764.svg",
     "index.html": "/Personal-Website/index.html",
     "main.4ec46705.css.map": "/Personal-Website/static/css/main.4ec46705.css.map",
-    "main.b43b6504.js.map": "/Personal-Website/static/js/main.b43b6504.js.map",
+    "main.ef82f2f3.js.map": "/Personal-Website/static/js/main.ef82f2f3.js.map",
     "415.4d6acbeb.chunk.js.map": "/Personal-Website/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Personal-Website/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4ec46705.css",
-    "static/js/main.b43b6504.js"
+    "static/js/main.ef82f2f3.js"
   ]
 }
