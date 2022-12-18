@@ -10,12 +10,12 @@
 
 ## Project Summary
 
-This repository serves as the main codebase for my personal website. Originally, I made this website as part of a class assignment in my Junior year of College. However, I still constantly update and improve upon the site to this very day. If you can would like to see the live site, then please visit:
-http://rirah123.github.io/Personal-Website
-
 <p align="center">
   <img src="./src/Assets/images/personal-site.gif" width="750" height="375">
 </p>
+
+This repository serves as the main codebase for my personal website. Originally, I made this website as part of a class assignment in my Junior year of College. However, I still constantly update and improve upon the site to this very day. If you can would like to see the live site, then please visit:
+http://rirah123.github.io/Personal-Website
 
 ## Purpose of My Personal Website
 
