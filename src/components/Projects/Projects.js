@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import EatCode from "../../Assets/images/eatcode.gif";
 import Audur from "../../Assets/images/audur.gif";
 import NCRGo from "../../Assets/images/ncr-go.gif";
+import InvenTracker from "../../Assets/images/inventracker.gif";
 import CandyCombaters from "../../Assets/images/candy-combaters.gif";
 import UNIXTerminalShell from "../../Assets/images/unix-terminal-shell.gif";
 import AFrame3DReplica from "../../Assets/images/aframe-3d-replica.gif";
@@ -28,8 +29,8 @@ function Projects() {
               <ProjectCard
                 imgPath={EatCode}
                 isBlog={false}
-                title="Eatcode"
-                description="A free food-theme technical interview training website that provides software engineers a unique 3D UI and hundreds of data structure structure/algorithmic style questions with relatively fast solution testing"
+                title="EatCode"
+                description="A free food-theme technical interview training website that provides software engineers a unique 3D UI and hundreds of data structure structure/algorithmic style questions with relatively fast solution testing."
                 ghLink="https://github.com/eatcode-gt/eatcodeweb"
               />
             </Col>
@@ -38,7 +39,7 @@ function Projects() {
                 imgPath={Audur}
                 isBlog={false}
                 title="Audur"
-                description="An Imgur clone website that allows users to securely upload audio files and anonymously share them without the need of creating an external account"
+                description="An Imgur clone website that allows users to securely upload audio files and anonymously share them without the need of creating an external account."
                 ghLink="https://github.com/RiRah123/Audur"
                 demoLink="https://youtu.be/XPAxgZLrGkM"
               />
@@ -51,6 +52,16 @@ function Projects() {
                 description="A React Native application built for NCR's Global Hackathon which provides an efficient shopping solution for customers by detecting a product's availability and in-store location (aisles) with computer vision technology."
                 ghLink="https://github.com/RiRah123/NCR-Go"
                 demoLink="https://www.youtube.com/watch?v=eCDzSWLUD4g"
+              />
+            </Col>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={InvenTracker}
+                isBlog={false}
+                title="InvenTracker"
+                description= "A mobile application prototype built in Figma that improves the management of food-related items for food bank employers and volunteers by placing orders, notifying donors, and updating stocks effectively."
+                fgLink="https://www.figma.com/file/RaRNYJhW1ycLjeEplvmy8m/InvenTracker-Prototype?node-id=0%3A1&t=YqOAAp3rYnXqhwd3-1"
+                demoLink="https://www.figma.com/proto/RaRNYJhW1ycLjeEplvmy8m/InvenTracker-Prototype?node-id=3%3A45&starting-point-node-id=3%3A45"
               />
             </Col>
             <Col md={4} className="project-card">
@@ -88,7 +99,7 @@ function Projects() {
                 imgPath={AFrame3DReplica}
                 isBlog={false}
                 title="A-Frame 3D Replica"
-                description= "A VR enviorment of Vincent Willem van Gogh's Wheatfield with Crows that was built using the A-Frame library"
+                description= "A VR enviorment of Vincent Willem van Gogh's Wheatfield with Crows that was built using the A-Frame library."
                 ghLink="https://github.com/RiRah123/Aframe-3D-Image-Replica"
                 demoLink="https://rirah123.github.io/Aframe-3D-Image-Replica/"
               />
