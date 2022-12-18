@@ -14,7 +14,7 @@ This repository serves as the main codebase for my personal website. Originally,
 http://rirah123.github.io/Personal-Website
 
 <p align="center">
-  <img src="./src/Assets/images/personal-site.gif" width="750" height="300">
+  <img src="./src/Assets/images/personal-site.gif" width="750" height="375">
 </p>
 
 ## Purpose of My Personal Website
