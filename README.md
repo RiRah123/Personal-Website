@@ -1,4 +1,4 @@
-# Personal-Website
+# Personal Website
 [![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=HTML5&logoColor=white)]()
 [![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS3&logoColor=white)]()
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)]()
@@ -12,6 +12,10 @@
 
 This repository serves as the main codebase for my personal website. Originally, I made this website as part of a class assignment in my Junior year of College. However, I still constantly update and improve upon the site to this very day. If you can would like to see the live site, then please visit:
 http://rirah123.github.io/Personal-Website
+
+<p align="center">
+  <img src="./src/Assets/images/personal-site.gif" width="1000" height="450">
+</p>
 
 ## Purpose of My Personal Website
 
