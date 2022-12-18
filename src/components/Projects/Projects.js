@@ -7,6 +7,7 @@ import NCRGo from "../../Assets/images/ncr-go.gif";
 import InvenTracker from "../../Assets/images/inventracker.gif";
 import CandyCombaters from "../../Assets/images/candy-combaters.gif";
 import UNIXTerminalShell from "../../Assets/images/unix-terminal-shell.gif";
+import TransportationFatalityVisualisation from "../../Assets/images/transportation-fatality-visualisation.gif";
 import AFrame3DReplica from "../../Assets/images/aframe-3d-replica.gif";
 import ITunesSearchAPIApp from "../../Assets/images/itunes-search-api-app.gif";
 import { motion } from "framer-motion";
@@ -82,6 +83,16 @@ function Projects() {
                 description= "A rudimentary shell built in C that mimics the core functionality of the UNIX shell (including pipelining, IO redirection, and foreground or background processing) by prompting the user for a UNIX command and displaying the appropriate output (if any) after executing that command."
                 ghLink="https://github.com/RiRah123/UNIX-Terminal-Shell"
                 demoLink="https://youtu.be/dlJn5VeZZUw"
+              />
+            </Col>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={TransportationFatalityVisualisation}
+                isBlog={false}
+                title="Transportation Fatality Visualisation"
+                description= "A D3.js multi-line chart visualization, illustrating and comparing the fatality rates (per 100k) for different modes of transportation from 1975 to 2020."
+                ghLink="https://github.com/RiRah123/Transportation-Fatality-Visualisation"
+                demoLink="rirah123.github.io/Transportation-Fatality-Visualisation/"
               />
             </Col>
             <Col md={4} className="project-card">
