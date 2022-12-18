@@ -22,6 +22,27 @@ I have made this website public with the goal of giving anyone a better understa
 
 Additionally, I hope by making my website public, anyone can provide any suggestions, additions, or edits to the website. If you have any criticisms, please feel free to reach out to me, and I would be more than happy to take them into consideration.
 
+## Running the Website Locally
+
+Using the terminal:
+
+1. Clone the GitHub Project
+   ```
+   $ git clone https://github.com/RiRah123/Personal-Website.git
+   ```
+2. Navigate to the cloned project
+   ```
+   $ cd Personal-Website
+   ```
+3. Download npm packages
+   ```
+   $ npm install
+   ```
+4. Run the Website
+   ```
+   $ npm run start
+   ```
+   
 ## Design Aesthetic of the Website
 To communicate my brand to any potiential users, I have my website a simplistic design. The color palette is limited to only two colors: purple and white. White is used for any general descriptive text, whereas purple is used for text that needs to grab the user's attention. Likewise, I simplified the site's typography. For the most part, I used only a sans-serif font called Raleway. An exception is a logo on the top left corner, which uses a font that I imported called GoldenSignature. With a limited font family on the site, I hope my website is easily readable for users. Finally, gridding is integrated with the site. The "About" page is subdivided vertically into multiple sections with a heading on top, indicating what that section is about. The "Project" is aligned horizontally, such that each project is within a card component. As a whole, the gridding provides an organized structure for the site.
 
