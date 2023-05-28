@@ -42,7 +42,7 @@ function ResumeNew() {
           <Button
             variant="primary"
             onClick={openPDF}
-            style={{ maxWidth: "250px" }}
+            style={{ maxWidth: "250px", cursor: "none" }}
           >
             <AiOutlineDownload />
             &nbsp;Download Resume

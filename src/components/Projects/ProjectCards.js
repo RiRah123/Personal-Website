@@ -15,13 +15,13 @@ function ProjectCards(props) {
           {props.description}
         </Card.Text>
         {props.ghLink && (
-          <Button variant="primary" href={props.ghLink} target="_blank">
+          <Button variant="primary" href={props.ghLink} style={{cursor: "none"}} target="_blank">
             <BsGithub /> &nbsp;
             {props.isBlog ? "Blog" : "GitHub"}
           </Button>
         )}
         {props.fgLink && (
-          <Button variant="primary" href={props.fgLink} target="_blank">
+          <Button variant="primary" style={{cursor: "none"}} href={props.fgLink} target="_blank">
             <SiFigma /> &nbsp;
             Figma
           </Button>
@@ -34,7 +34,7 @@ function ProjectCards(props) {
             variant="primary"
             href={props.demoLink}
             target="_blank"
-            style={{ marginLeft: "10px" }}
+            style={{ marginLeft: "10px", cursor: "none"  }}
           >
             <CgWebsite /> &nbsp;
             {"Demo"}

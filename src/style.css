@@ -24,7 +24,7 @@ button:focus {
   box-shadow: none !important;
 }
 
-/* .cursor {
+.cursor {
   width: 30px;
   height: 30px;
   border: 1px solid white;
@@ -34,6 +34,7 @@ button:focus {
   position: fixed;
   animation: cursorAnim .5s infinite alternate;
   pointer-events: none;
+  z-index: 9999; /* Add this line to set a high z-index value */
 }
 
 .cursor::after {
@@ -83,7 +84,17 @@ button:focus {
       transform: scale(1);
       opacity: 0;
   }
-} */
+}
+
+
+.cursor-clickable {
+  cursor: none !important;
+  pointer-events: auto; /* Allow pointer events on clickable elements */
+  color: inherit !important;
+  background-color: inherit !important;
+  border-color: inherit !important;
+  transition: none !important;
+}
 
 /* --------- */
 /*  Preloader */
@@ -466,7 +477,9 @@ button:focus {
   background: rgba(255, 255, 255, 0.972) !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
+  cursor: none; /* Add this line to hide the default cursor */
 }
+
 
 .home-social-icons::before {
   content: "";

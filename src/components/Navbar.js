@@ -29,12 +29,12 @@ function NavBar() {
       expanded={expand}
       fixed="top"
       expand="md"
-      className={navColour ? "sticky" : "navbar"}
+      className={navColour ? "sticky cursor-clickable" : "navbar cursor-clickable"}
     >
       <Container>
-        <Navbar.Brand href="http://rirah123.github.io/Personal-Website" className="d-flex">
+        <Navbar.Brand href="http://rirah123.github.io/Personal-Website" className="d-flex cursor-clickable">
           <span className="logo-name-brackets"> &lt; {" "}</span>
-            <span className="logo-name">
+            <span className="logo-name" >
               Rian Rahman {" "}
             </span>
           <span className="logo-name-brackets">{" "}/&gt;</span>
@@ -52,7 +52,11 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+              <Nav.Link as={Link} 
+                to="/" 
+                onClick={() => updateExpanded(false)}
+                className="cursor-clickable"
+              >
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
@@ -61,6 +65,7 @@ function NavBar() {
                 as={Link}
                 to="/about"
                 onClick={() => updateExpanded(false)}
+                className="cursor-clickable"
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
@@ -70,6 +75,7 @@ function NavBar() {
                 as={Link}
                 to="/project"
                 onClick={() => updateExpanded(false)}
+                className="cursor-clickable"
               >
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
@@ -82,6 +88,7 @@ function NavBar() {
                 as={Link}
                 to="/resume"
                 onClick={() => updateExpanded(false)}
+                className="cursor-clickable"
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>

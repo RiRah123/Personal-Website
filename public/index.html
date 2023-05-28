@@ -12,20 +12,41 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <!-- <div class="cursor">
+    <div class="cursor">
       <script>
         const cursor = document.querySelector('.cursor');
-        document.addEventListener('mousemove', e=> {
-          cursor.setAttribute("style", "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px;");
-        })
-        document.addEventListener('click', () => {
-          cursor.classList.add("expand");
-          setTimeout(() => {
-            cursor.classList.remove("expand");
-          }, 500)
-        })
+
+        document.addEventListener('mousemove', (e) => {
+          const scrollX = window.pageXOffset;
+          const scrollY = window.pageYOffset;
+
+          cursor.style.top = e.pageY - scrollY - 10 + 'px';
+          cursor.style.left = e.pageX - scrollX - 10 + 'px';
+        });
+
+        document.addEventListener('click', (e) => {
+          const target = e.target;
+
+          if (!target.closest('.navbar')) { // Exclude navbar elements
+            cursor.classList.add('expand');
+            target.classList.add('cursor-clickable');
+
+            setTimeout(() => {
+              cursor.classList.remove('expand');
+              target.classList.remove('cursor-clickable');
+            }, 500);
+          }
+        });
+
+        // Add this event listener to remove the 'cursor-clickable' class on mouseleave
+        document.addEventListener('mouseleave', () => {
+          const clickableElements = document.getElementsByClassName('cursor-clickable');
+          for (let i = 0; i < clickableElements.length; i++) {
+            clickableElements[i].classList.remove('cursor-clickable');
+          }
+        });
       </script>
-    </div> -->
+    </div>
     <div id="root"></div>
   </body>
 </html>
