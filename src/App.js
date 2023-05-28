@@ -9,6 +9,7 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Particle from "./components/Particle";
+import { Element, scroller } from 'react-scroll';
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -21,6 +22,17 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
+  const handleScroll = () => {
+    scroller.scrollTo("scroll-to-element", {
+      duration: 800,
+      delay: 0,
+      smooth: "easeInOutQuart",
+      offset: -50, // Adjust the scroll offset if needed
+      isDynamic: true, // Enable dynamic scroll (useful for responsive designs)
+    });
+  };
+  
+
   return (
     <Router>
       <Particle />
@@ -28,8 +40,13 @@ function App() {
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
         <ScrollToTop />
-        <AnimatedRoutes />
-        <Footer />
+        <Element name="scroll-to-element" className="scroll-element">
+          <AnimatedRoutes />
+          <Footer />
+        </Element>
+        <div className="scroll-down" onClick={handleScroll}>
+          <span></span>
+        </div>
       </div>
     </Router>
   );
