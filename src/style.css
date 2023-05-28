@@ -90,10 +90,6 @@ button:focus {
 .cursor-clickable {
   cursor: none !important;
   pointer-events: auto; /* Allow pointer events on clickable elements */
-  color: inherit !important;
-  background-color: inherit !important;
-  border-color: inherit !important;
-  transition: none !important;
 }
 
 /* --------- */
@@ -479,7 +475,6 @@ button:focus {
   transition: 0.5s !important;
   cursor: none; /* Add this line to hide the default cursor */
 }
-
 
 .home-social-icons::before {
   content: "";
