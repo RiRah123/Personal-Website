@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 function TimelineFilter({ onChange }) {
   const [selectedYear, setSelectedYear] = useState(null);
 
@@ -19,10 +20,10 @@ function TimelineFilter({ onChange }) {
   const currentYear = new Date().getFullYear();
 
   const renderTimeline = () => {
-    const years = Array.from({ length: currentYear - 2020 + 1 }, (_, index) => 2020 + index);
+    const years = Array.from({ length: currentYear - 2021 + 1 }, (_, index) => 2021 + index);
 
     return (
-      <div className="timeline-filter">
+      <div className="timeline-filter-wrapper">
         <div className="triangle-left"></div>
         {years.map((year) => (
           <div

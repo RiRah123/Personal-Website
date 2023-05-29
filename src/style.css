@@ -883,12 +883,15 @@ button:focus {
   display: none !important;
 }
 
-.timeline-filter {
+.timeline-filter-wrapper {
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: transparent;
   padding: 10px 0;
   position: relative;
+  width: fit-content;
+  margin: 0 auto;
 }
 
 .timeline-filter-item {
@@ -915,15 +918,18 @@ button:focus {
   top: 50%;
   transform: translateY(-50%);
   background-color: transparent;
-  border-right: 10px solid rgba(128, 0, 128, 0.7);
 }
 
 .triangle-left {
   left: -10px;
+  border-right: 10px solid rgba(128, 0, 128, 0.7);
+  border-left: none;
 }
 
 .triangle-right {
   right: -10px;
+  border-left: 10px solid transparent;
+  border-right: none;
 }
 
 .reset-timeline {
@@ -932,7 +938,7 @@ button:focus {
   border: none;
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 60%;
   transform: translateY(-50%);
   right: -90px;
   padding: 5px;
