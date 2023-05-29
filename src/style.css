@@ -882,3 +882,62 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+.timeline-filter {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  padding: 10px 0;
+  position: relative;
+}
+
+.timeline-filter-item {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.timeline-filter-item.active {
+  background-color: rgba(128, 0, 128, 0.7);
+}
+
+.triangle-left,
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border-right: 10px solid rgba(128, 0, 128, 0.7);
+}
+
+.triangle-left {
+  left: -10px;
+}
+
+.triangle-right {
+  right: -10px;
+}
+
+.reset-timeline {
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -90px;
+  padding: 5px;
+}
+
+.reset-timeline:hover {
+  text-decoration: underline;
+}
