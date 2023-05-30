@@ -103,12 +103,26 @@ button:focus {
   height: 100%;
   z-index: 999999;
   background-color: #0c0513;
-  background-image: url(./Assets/pre.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+}
+
+.preloader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.animation-container {
+  width: 650px;
+  height: 650px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #preloader-none {
+  height: 0;
   opacity: 0;
 }
 
@@ -165,6 +179,7 @@ button:focus {
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
+  height: auto !important;
 }
 
 .navbar-toggler {
