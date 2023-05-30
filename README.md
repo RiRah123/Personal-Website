@@ -15,7 +15,7 @@
 </p>
 
 This repository serves as the main codebase for my personal website. Originally, I made this website as part of a class assignment in my Junior year of College. However, I still constantly update and improve upon the site to this very day. If you can would like to see the live site, then please visit:
-http://rirah123.github.io/Personal-Website
+http://rian-rahman.com
 
 ## About the Website
 I have made this website public with the goal of giving anyone a better understanding of `brand` and `purpose`. Through navigating on the site, users can learn a little more about me whether it be my hobbies, interests, skills, and previous experience/projects.
