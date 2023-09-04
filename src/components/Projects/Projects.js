@@ -7,13 +7,23 @@ import TimelineFilter from "./TimelineFilter";
 
 const projectData = [
   {
+    imgPath: require("../../Assets/images/mfChess.gif"),
+    isBlog: false,
+    title: "mfChess",
+    description:
+      "A a cutting-edge React app offering a seamless online chess experience where users can games, analyze moves with Stockfish, and customize profiles.",
+    ghLink: "https://github.com/mfChess",
+    demoLink: "https://mfchess.com",
+    date: new Date("2023-01-01"),
+  },
+  {
     imgPath: require("../../Assets/images/nfl-career-combine.gif"),
     isBlog: false,
     title: "NFL Combine & Career Analysis",
     description:
       "A data analysis project examining the correlation between combine performance and first-year success of offensive players in the NFL to improve player evaluation and training strategies.",
     ghLink: "https://github.com/RiRah123/NFL-Combine-Career-Score-Analysis",
-    demoLink: "https://youtu.be/XPAxgZLrGkM",
+    demoLink: "https://youtu.be/a9U-S2o8GM8",
     date: new Date("2023-01-01"),
   },
   {
