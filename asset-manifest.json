@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6081136c.css",
-    "main.js": "/static/js/main.7db48f67.js",
+    "main.css": "/static/css/main.09c4e313.css",
+    "main.js": "/static/js/main.f111c442.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/aframe-3d-replica.gif": "/static/media/aframe-3d-replica.e989c9aa73bd549a49f1.gif",
@@ -14,20 +14,22 @@
     "static/media/audur.gif": "/static/media/audur.81fec972170e4e942c0d.gif",
     "static/media/GoldenSignature.otf": "/static/media/GoldenSignature.0117d2c54e5b58d51ae3.otf",
     "static/media/unix-terminal-shell.gif": "/static/media/unix-terminal-shell.a59bada72110e05e9f31.gif",
+    "static/media/grandstage-logo.jpg": "/static/media/grandstage-logo.93fb04d2d1e866f157c3.jpg",
     "static/media/home-main.svg": "/static/media/home-main.60a6349cbef1ec66a9ff1369eba7007a.svg",
     "static/media/Rian-Rahman-Resume.pdf": "/static/media/Rian-Rahman-Resume.efb14e68106d954431a3.pdf",
-    "static/media/uga-logo.png": "/static/media/uga-logo.8037a9e4ec1cd73959ca.png",
+    "static/media/hp-logo.png": "/static/media/hp-logo.e1d58ca9acd6403de21f.png",
+    "static/media/uga-logo.png": "/static/media/uga-logo.0e00c613ad93c7a941f6.png",
     "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/avatar.svg": "/static/media/avatar.047830d0d24323d64facc7a40e5e0ffd.svg",
     "static/media/java.svg": "/static/media/java.fad25bb10fc6eb6afb159a042c76894e.svg",
     "index.html": "/index.html",
-    "main.6081136c.css.map": "/static/css/main.6081136c.css.map",
-    "main.7db48f67.js.map": "/static/js/main.7db48f67.js.map",
+    "main.09c4e313.css.map": "/static/css/main.09c4e313.css.map",
+    "main.f111c442.js.map": "/static/js/main.f111c442.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6081136c.css",
-    "static/js/main.7db48f67.js"
+    "static/css/main.09c4e313.css",
+    "static/js/main.f111c442.js"
   ]
 }
