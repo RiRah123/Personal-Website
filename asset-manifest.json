@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.09c4e313.css",
-    "main.js": "/static/js/main.f111c442.js",
+    "main.js": "/static/js/main.789a347c.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/aframe-3d-replica.gif": "/static/media/aframe-3d-replica.e989c9aa73bd549a49f1.gif",
@@ -14,9 +14,9 @@
     "static/media/audur.gif": "/static/media/audur.81fec972170e4e942c0d.gif",
     "static/media/GoldenSignature.otf": "/static/media/GoldenSignature.0117d2c54e5b58d51ae3.otf",
     "static/media/unix-terminal-shell.gif": "/static/media/unix-terminal-shell.a59bada72110e05e9f31.gif",
-    "static/media/grandstage-logo.jpg": "/static/media/grandstage-logo.93fb04d2d1e866f157c3.jpg",
+    "static/media/Rian-Rahman-Resume-1.pdf": "/static/media/Rian-Rahman-Resume-1.9f967bb65e26de6bcf7e.pdf",
     "static/media/home-main.svg": "/static/media/home-main.60a6349cbef1ec66a9ff1369eba7007a.svg",
-    "static/media/Rian-Rahman-Resume.pdf": "/static/media/Rian-Rahman-Resume.efb14e68106d954431a3.pdf",
+    "static/media/grandstage-logo.png": "/static/media/grandstage-logo.18ac165ab99fe8a9afbd.png",
     "static/media/hp-logo.png": "/static/media/hp-logo.e1d58ca9acd6403de21f.png",
     "static/media/uga-logo.png": "/static/media/uga-logo.0e00c613ad93c7a941f6.png",
     "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
@@ -24,12 +24,12 @@
     "static/media/java.svg": "/static/media/java.fad25bb10fc6eb6afb159a042c76894e.svg",
     "index.html": "/index.html",
     "main.09c4e313.css.map": "/static/css/main.09c4e313.css.map",
-    "main.f111c442.js.map": "/static/js/main.f111c442.js.map",
+    "main.789a347c.js.map": "/static/js/main.789a347c.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.09c4e313.css",
-    "static/js/main.f111c442.js"
+    "static/js/main.789a347c.js"
   ]
 }
