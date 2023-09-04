@@ -1,17 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.09c4e313.css",
-    "main.js": "/static/js/main.789a347c.js",
+    "main.js": "/static/js/main.4930f2c9.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/aframe-3d-replica.gif": "/static/media/aframe-3d-replica.e989c9aa73bd549a49f1.gif",
     "static/media/candy-combaters.gif": "/static/media/candy-combaters.d98a374c88c26a37121c.gif",
+    "static/media/poke-island.gif": "/static/media/poke-island.ff70a7a66be71a43a4b4.gif",
     "static/media/ncr-go.gif": "/static/media/ncr-go.e85130b16651922c39de.gif",
     "static/media/itunes-search-api-app.gif": "/static/media/itunes-search-api-app.4e7f4abd417d427645a5.gif",
     "static/media/transportation-fatality-visualisation.gif": "/static/media/transportation-fatality-visualisation.69572c47109f7ef6a6b3.gif",
+    "static/media/nfl-career-combine.gif": "/static/media/nfl-career-combine.fbc07e1fd3193a97312f.gif",
     "static/media/inventracker.gif": "/static/media/inventracker.77f1e9a68669ba52cf54.gif",
-    "static/media/eatcode.gif": "/static/media/eatcode.7c4520b923284f0d6089.gif",
+    "static/media/eatcode.gif": "/static/media/eatcode.3d3a1053afb32c5d49c3.gif",
     "static/media/audur.gif": "/static/media/audur.81fec972170e4e942c0d.gif",
+    "static/media/mfChess.gif": "/static/media/mfChess.4a4227b2c80af63300c3.gif",
     "static/media/GoldenSignature.otf": "/static/media/GoldenSignature.0117d2c54e5b58d51ae3.otf",
     "static/media/unix-terminal-shell.gif": "/static/media/unix-terminal-shell.a59bada72110e05e9f31.gif",
     "static/media/Rian-Rahman-Resume-1.pdf": "/static/media/Rian-Rahman-Resume-1.9f967bb65e26de6bcf7e.pdf",
@@ -24,12 +27,12 @@
     "static/media/java.svg": "/static/media/java.fad25bb10fc6eb6afb159a042c76894e.svg",
     "index.html": "/index.html",
     "main.09c4e313.css.map": "/static/css/main.09c4e313.css.map",
-    "main.789a347c.js.map": "/static/js/main.789a347c.js.map",
+    "main.4930f2c9.js.map": "/static/js/main.4930f2c9.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.09c4e313.css",
-    "static/js/main.789a347c.js"
+    "static/js/main.4930f2c9.js"
   ]
 }
