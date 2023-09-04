@@ -22,7 +22,9 @@ function About() {
             <h1 className="project-heading">
               My <strong className="purple">Experience</strong>
             </h1>
-            <Experience />
+          </Fade>
+          <Experience />
+          <Fade left>
             <h1 className="project-heading">
               <strong className="purple">
                 Languages & Frameworks & Libraries

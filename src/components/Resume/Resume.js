@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import pdf from "../../Assets/Rian-Rahman-Resume.pdf";
+import pdf from "../../Assets/Rian-Rahman-Resume-1.pdf"
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import { motion } from "framer-motion";
 import Fade from 'react-reveal/Fade';
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 function ResumeNew() {
   const openPDF = () => {
@@ -16,7 +16,7 @@ function ResumeNew() {
             const fileURL = window.URL.createObjectURL(blob);
             let alink = document.createElement('a');
             alink.href = fileURL;
-            alink.download = 'Rian-Rahman-Resume';
+            alink.download = 'Rian-Rahman-Resume-1';
             alink.click();
         })
     })

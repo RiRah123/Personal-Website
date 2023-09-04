@@ -1,6 +1,7 @@
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import GrandstageLogo from "../../Assets/images/grandstage-logo.jpg";
+import SLBLogo from "../../Assets/images/slb-logo.jpg";
+import GrandstageLogo from "../../Assets/images/grandstage-logo.png";
 import HPLogo from "../../Assets/images/hp-logo.png";
 import NCRLogo from "../../Assets/images/ncr-logo.png";
 import UGALogo from "../../Assets/images/uga-logo.png";
@@ -10,6 +11,21 @@ import {MdLocationOn} from "react-icons/md";
 
 function Experience() {
     let timelineElements = [
+        {
+            id: 6,
+            logo: SLBLogo,
+            company: "SLB",
+            title: "Engineering Project Leader for Junior Capstone Project",
+            location: "Atlanta, GA (Remote)",
+            date: "September 2023 - Present",
+            description: 
+                    <div>
+                        <ul style={{marginTop: "1rem"}}>
+                            <li>Leading a team of five focused on developing a framework for rapid bottomhole assembly (BHA) tool health assessment in the Well Construction Measurement (WCM) field.</li>
+                            <li>Collaborating with Schlumberger (SLB) clients to integrate their specific requirements, enhancing the tool health assessment process for the latest generation of tools as part of the Georgia Tech Junior Design Capstone Project</li>
+                        </ul>
+                    </div>
+        },
         {
             id: 5,
             logo: GrandstageLogo,
@@ -101,7 +117,7 @@ function Experience() {
                                 iconStyle={{background: 'rgb(255, 255, 255)', color: '#fff'}}
                                 icon={<Image src={element.logo} fluid roundedCircle/>}
                             >
-                                <h3 className="vertical-timeline-element-title">{element.title} @ {element.company}</h3>
+                                <h3 className="vertical-timeline-element-title">{element.title} <br/> @ {element.company}</h3>
                                 <div style={{
                                     display: "flex",
                                     flexDirection: "row",

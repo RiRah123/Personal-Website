@@ -15,9 +15,9 @@ function AboutCard() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              My name is Rian Rahman. Currently, I am a third year Computer Science <img src={coding} alt="coding" height="25px" 
+              My name is Rian Rahman. Currently, I am a fourth year Computer Science <img src={coding} alt="coding" height="25px" 
               width="25px" /> major at  <i> <strong className="purple"> Georgia Institute of Technology </strong> </i> 🐝 with a concentration in 
-              Artificial Intelligence 🤖 and Information Internetworks 🌐. I have experience in full stack development through previous academic courses 
+              Artificial Intelligence 🤖 and Human Computer Interaction 👫. I have experience in full stack development through previous academic courses 
               and internships, but I tend to prefer working on the frontend for applications and projects.
               <br/> 
               <br/>
