@@ -24,7 +24,7 @@ function TimelineFilter({ onChange }) {
 
     return (
       <div className="timeline-filter-wrapper">
-        <div className="triangle-left"></div>
+        {/* <div className="triangle-left"></div> */}
         {years.map((year) => (
           <div
             key={year}
@@ -34,7 +34,7 @@ function TimelineFilter({ onChange }) {
             {year}
           </div>
         ))}
-        <div className="triangle-right"></div>
+        {/* <div className="triangle-right"></div> */}
         <div className="reset-timeline" onClick={resetTimeline}>
           Reset Timeline
         </div>

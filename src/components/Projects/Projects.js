@@ -7,6 +7,25 @@ import TimelineFilter from "./TimelineFilter";
 
 const projectData = [
   {
+    imgPath: require("../../Assets/images/nfl-career-combine.gif"),
+    isBlog: false,
+    title: "NFL Combine & Career Analysis",
+    description:
+      "A data analysis project examining the correlation between combine performance and first-year success of offensive players in the NFL to improve player evaluation and training strategies.",
+    ghLink: "https://github.com/RiRah123/NFL-Combine-Career-Score-Analysis",
+    demoLink: "https://youtu.be/XPAxgZLrGkM",
+    date: new Date("2023-01-01"),
+  },
+  {
+    imgPath: require("../../Assets/images/poke-island.gif"),
+    isBlog: false,
+    title: "Poke Island",
+    description:
+      "An immersive Pokemon-inspired adventure, where players explore a meticulously crafted island map, engage in captivating battles, and uncover Poke-Island's secrets.",
+    ghLink: "https://github.com/RiRah123/Poke-Island",
+    date: new Date("2023-01-01"),
+  },
+  {
     imgPath: require("../../Assets/images/eatcode.gif"),
     isBlog: false,
     title: "EatCode",
