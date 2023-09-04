@@ -9,7 +9,7 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Particle from "./components/Particle";
-import { Element, scroller } from 'react-scroll';
+import { Element, scroller } from "react-scroll";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -24,10 +24,10 @@ function App() {
 
   const handleScroll = () => {
     scroller.scrollTo("scroll-to-element", {
-      duration: 800,
+      duration: 1000,
       delay: 0,
       smooth: "easeInOutQuart",
-      offset: -50, // Adjust the scroll offset if needed
+      offset: -100, // Adjust the scroll offset if needed
       isDynamic: true, // Enable dynamic scroll (useful for responsive designs)
     });
   };

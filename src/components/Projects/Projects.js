@@ -13,7 +13,7 @@ const projectData = [
     description:
       "A free food-theme technical interview training website that provides software engineers a unique 3D UI and hundreds of data structure structure/algorithmic style questions with relatively fast solution testing.",
     ghLink: "https://github.com/eatcode-gt/eatcodeweb",
-    date: new Date("2023-01-01"),
+    date: new Date("2022-01-01"),
 
   },
   {
@@ -24,7 +24,7 @@ const projectData = [
       "An Imgur clone website that allows users to securely upload audio files and anonymously share them without the need of creating an external account.",
     ghLink: "https://github.com/RiRah123/Audur",
     demoLink: "https://youtu.be/XPAxgZLrGkM",
-    date: new Date("2023-01-01"),
+    date: new Date("2022-01-01"),
   },
   {
     imgPath: require("../../Assets/images/ncr-go.gif"),
@@ -34,7 +34,7 @@ const projectData = [
       "A React Native application built for NCR's Global Hackathon which provides an efficient shopping solution for customers by detecting a product's availability and in-store location (aisles) with computer vision technology.",
     ghLink: "https://github.com/RiRah123/NCR-Go",
     demoLink: "https://www.youtube.com/watch?v=eCDzSWLUD4g",
-    date: new Date("2023-01-01"),
+    date: new Date("2022-01-01"),
   },
   {
     imgPath: require("../../Assets/images/inventracker.gif"),
@@ -46,7 +46,7 @@ const projectData = [
       "https://www.figma.com/file/RaRNYJhW1ycLjeEplvmy8m/InvenTracker-Prototype?node-id=0%3A1&t=YqOAAp3rYnXqhwd3-1",
     demoLink:
       "https://www.figma.com/proto/RaRNYJhW1ycLjeEplvmy8m/InvenTracker-Prototype?node-id=3%3A45&starting-point-node-id=3%3A45",
-    date: new Date("2023-01-01"),
+    date: new Date("2022-01-01"),
   },
   {
     imgPath: require("../../Assets/images/candy-combaters.gif"),
@@ -56,7 +56,7 @@ const projectData = [
       "A two-player candy-themed game built with JavaScript and HTML Canvas, where each player controls their character using the keyboard and fights one another in a brawl to the death.",
     ghLink: "https://github.com/RiRah123/Candy-Combaters",
     demoLink: "https://rirah123.github.io/Candy-Combaters/",
-    date: new Date("2023-01-01"),
+    date: new Date("2022-01-01"),
   },
   {
     imgPath: require("../../Assets/images/unix-terminal-shell.gif"),
@@ -66,7 +66,7 @@ const projectData = [
       "A rudimentary shell built in C that mimics the core functionality of the UNIX shell (including pipelining, IO redirection, and foreground or background processing) by prompting the user for a UNIX command and displaying the appropriate output (if any) after executing that command.",
       ghLink: "https://github.com/RiRah123/UNIX-Terminal-Shell",
       demoLink: "https://youtu.be/dlJn5VeZZUw",
-      date: new Date("2023-01-01"),
+      date: new Date("2021-01-01"),
     },
     {
       imgPath: require("../../Assets/images/transportation-fatality-visualisation.gif"),
@@ -76,7 +76,7 @@ const projectData = [
         "A D3.js multi-line chart visualization, illustrating and comparing the fatality rates (per 100k) for different modes of transportation from 1975 to 2020.",
       ghLink: "https://github.com/RiRah123/Transportation-Fatality-Visualisation",
       demoLink: "https://rirah123.github.io/Transportation-Fatality-Visualisation/",
-      date: new Date("2021-01-01"),
+      date: new Date("2022-01-01"),
     },
     {
       imgPath: require("../../Assets/images/itunes-search-api-app.gif"),
@@ -86,7 +86,7 @@ const projectData = [
         "A JavaFX GUI application that displays a gallery of 20+ artwork images based on the results of a user-entered query from the iTunes Search API.",
       ghLink: "https://github.com/RiRah123/iTunes-Search-API-App",
       demoLink: "",
-      date: new Date("2023-01-01"),
+      date: new Date("2021-01-01"),
     },
     {
       imgPath: require("../../Assets/images/aframe-3d-replica.gif"),
