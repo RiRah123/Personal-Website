@@ -1071,20 +1071,47 @@ function AnilingoProject() {
                 width: '100%',
                 height: '600px',
                 position: 'relative',
-                marginBottom: '20px'
+                marginBottom: '20px',
+                backgroundColor: 'rgba(15, 22, 36, 0.5)',
+                border: '1px solid rgba(199, 112, 240, 0.3)',
+                borderRadius: '10px',
+                overflow: 'hidden'
               }}>
                 <iframe
-                  src="https://app.uizard.io/p/2c732cc0"
+                  src="https://app.uizard.io/p/2c732cc0/embed"
                   title="AniLingo Final Design Prototype"
                   style={{
                     width: '100%',
                     height: '100%',
-                    border: '1px solid rgba(199, 112, 240, 0.3)',
-                    borderRadius: '10px',
-                    backgroundColor: 'rgba(15, 22, 36, 0.5)'
+                    border: 'none',
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    zIndex: 1
                   }}
                   allow="fullscreen"
+                  referrerPolicy="origin"
+                  sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
                 />
+                <div style={{
+                  position: 'absolute',
+                  top: '50%',
+                  left: '50%',
+                  transform: 'translate(-50%, -50%)',
+                  textAlign: 'center',
+                  zIndex: 0
+                }}>
+                  <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8 }}>
+                    If the prototype doesn't load, you can <a 
+                      href="https://app.uizard.io/p/2c732cc0" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      style={{ color: '#c770f0', textDecoration: 'underline' }}
+                    >
+                      view it directly on Uizard
+                    </a>
+                  </p>
+                </div>
               </div>
 
               <p style={{ 
