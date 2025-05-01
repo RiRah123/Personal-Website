@@ -1,16 +1,16 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { motion } from 'framer-motion';
-import { FaBullseye, FaCrosshairs, FaLightbulb, FaHandshake, FaPencilAlt, FaUserCircle, FaSitemap, FaFlask, FaComments, FaTools, FaCheckCircle } from "react-icons/fa";
+import { FaBullseye, FaCrosshairs, FaLightbulb, FaHandshake, FaPencilAlt, FaUserCircle, FaSitemap, FaFlask, FaComments, FaTools, FaCheckCircle, FaCode, FaChalkboardTeacher } from "react-icons/fa";
 import { BsPeopleFill, BsTranslate, BsCameraFill } from "react-icons/bs";
-import '../style.css';
+import '../../style.css';
 
 const DuolingoRedesign = () => {
     return (
       <Container fluid className="duolingo-redesign-page project-section" style={{ 
         background: '#0F1624',
         minHeight: '100vh',
-        paddingTop: '50px'
+        paddingTop: 0
       }}>
         <Container>
           <Row className="justify-content-center">
@@ -25,7 +25,7 @@ const DuolingoRedesign = () => {
                   marginBottom: '50px',
                   color: 'white'
                 }}>
-                  Duolingo Redesign <span style={{ color: '#c770f0' }}>– Educational Technology Project</span>
+                  Duolingo Redesign <span style={{ color: '#c770f0' }}> (Group Project) </span>
                 </h1>
                 
                 <div className="project-summary mb-5">
@@ -109,9 +109,9 @@ const DuolingoRedesign = () => {
                   }}>
                     Our redesign introduces three features grounded in learning science principles and feedback from real users:
                   </p>
-                  <div style={{ marginLeft: '20px' }}>
+                  <div style={{ marginLeft: '0', textAlign: 'center' }}>
                     <div className="mb-4">
-                      <div style={{ display: 'flex', alignItems: 'center', marginBottom: '15px' }}>
+                      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '15px' }}>
                         <BsPeopleFill style={{ color: '#c770f0', fontSize: '1.5rem', marginRight: '10px' }} />
                         <h3 style={{ color: '#c770f0', margin: 0, fontSize: '1.2rem' }}>
                           Social Learning Community Hub
@@ -121,14 +121,17 @@ const DuolingoRedesign = () => {
                         color: 'white',
                         fontSize: '1.1rem',
                         lineHeight: '1.8',
-                        opacity: 0.8
+                        opacity: 0.8,
+                        maxWidth: '800px',
+                        margin: '0 auto',
+                        textAlign: 'center'
                       }}>
                         Inspired by Vygotsky's Social Constructivism, this feature enables users to engage in forums, language challenges, and peer-led minigames to support collaborative learning. It provides a space for mutual support and motivation, helping users co-construct knowledge with others.
                       </p>
                     </div>
   
                     <div className="mb-4">
-                      <div style={{ display: 'flex', alignItems: 'center', marginBottom: '15px' }}>
+                      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '15px' }}>
                         <BsCameraFill style={{ color: '#c770f0', fontSize: '1.5rem', marginRight: '10px' }} />
                         <h3 style={{ color: '#c770f0', margin: 0, fontSize: '1.2rem' }}>
                           Augmented Reality-Based Vocabulary Scanner
@@ -138,14 +141,17 @@ const DuolingoRedesign = () => {
                         color: 'white',
                         fontSize: '1.1rem',
                         lineHeight: '1.8',
-                        opacity: 0.8
+                        opacity: 0.8,
+                        maxWidth: '800px',
+                        margin: '0 auto',
+                        textAlign: 'center'
                       }}>
                         Grounded in Situated and Distributed Cognition, this AR feature lets users point their camera at real-world objects and receive instant translations in their target language. It bridges classroom learning and real-life context, particularly for learners navigating new cultural environments.
                       </p>
                     </div>
   
                     <div className="mb-4">
-                      <div style={{ display: 'flex', alignItems: 'center', marginBottom: '15px' }}>
+                      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '15px' }}>
                         <BsTranslate style={{ color: '#c770f0', fontSize: '1.5rem', marginRight: '10px' }} />
                         <h3 style={{ color: '#c770f0', margin: 0, fontSize: '1.2rem' }}>
                           Live Conversation with Native Speakers
@@ -155,7 +161,10 @@ const DuolingoRedesign = () => {
                         color: 'white',
                         fontSize: '1.1rem',
                         lineHeight: '1.8',
-                        opacity: 0.8
+                        opacity: 0.8,
+                        maxWidth: '800px',
+                        margin: '0 auto',
+                        textAlign: 'center'
                       }}>
                         Leveraging Sociocultural Theory and the Zone of Proximal Development, this feature connects learners with native speakers for real-time conversations, enabling immediate feedback, cultural exchange, and fluency growth.
                       </p>
@@ -172,19 +181,19 @@ const DuolingoRedesign = () => {
                   </p>
                 </motion.div>
   
-                <motion.div
+                  <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.6 }}
                   className="persona-section mb-5"
-                  style={{
-                    background: 'rgba(15, 22, 36, 0.8)',
-                    borderRadius: '15px',
-                    padding: '30px',
-                    backdropFilter: 'blur(4px)',
-                    border: '1px solid rgba(199, 112, 240, 0.2)'
-                  }}
-                >
+                    style={{
+                      background: 'rgba(15, 22, 36, 0.8)',
+                      borderRadius: '15px',
+                      padding: '30px',
+                      backdropFilter: 'blur(4px)',
+                      border: '1px solid rgba(199, 112, 240, 0.2)'
+                    }}
+                  >
                   <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '30px' }}>
                     <FaUserCircle style={{ color: '#c770f0', fontSize: '2.5rem', marginRight: '15px' }} />
                     <h2 className="project-heading" style={{ 
@@ -209,7 +218,7 @@ const DuolingoRedesign = () => {
 
                   <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '30px' }}>
                     <img 
-                      src={require("../Assets/images/duolingo-persona.png")}
+                      src={require("../../Assets/images/duolingo-persona.png")}
                       alt="Persona - Maria Solis"
                       style={{
                         width: '20%',
@@ -232,15 +241,15 @@ const DuolingoRedesign = () => {
                       She uses Duolingo to prepare for study abroad and connect with French-speaking friends. While she appreciates 
                       gamified learning, Maria struggles with repetitive lessons, shallow grammar explanations, and lack of real-world 
                       interaction. She wants a more structured way to track her progress and deeper opportunities for meaningful conversation.
-                    </p>
-                  </div>
-                </motion.div>
-
-                <motion.div
+                      </p>
+                    </div>
+                  </motion.div>
+  
+                  <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.7 }}
-                  className="affinity-section mb-5"
+                  transition={{ duration: 0.5, delay: 0.8 }}
+                  className="sketches-section mb-5"
                   style={{
                     background: 'rgba(15, 22, 36, 0.8)',
                     borderRadius: '15px',
@@ -249,6 +258,121 @@ const DuolingoRedesign = () => {
                     border: '1px solid rgba(199, 112, 240, 0.2)'
                   }}
                 >
+                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '30px' }}>
+                    <FaPencilAlt style={{ color: '#c770f0', fontSize: '2.5rem', marginRight: '15px' }} />
+                  <h2 className="project-heading" style={{ 
+                    textAlign: 'center',
+                      margin: 0,
+                    color: 'white'
+                    }}>
+                      Design <span style={{ color: '#c770f0' }}>Sketches</span>
+                    </h2>
+                    <FaPencilAlt style={{ color: '#c770f0', fontSize: '2.5rem', marginLeft: '15px' }} />
+                  </div>
+
+                  <p style={{ 
+                    color: 'white',
+                    fontSize: '1.1rem',
+                    lineHeight: '1.8',
+                    opacity: 0.8,
+                    marginBottom: '30px'
+                  }}>
+                    To address Maria's needs and pain points, we created detailed sketches for each feature. These early visuals 
+                    helped us define the layout, screen transitions, and interaction logic before moving into high-fidelity prototypes.
+                  </p>
+
+                  <div className="sketch-descriptions">
+                    <div className="mb-4">
+                      <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>Community Hub</h3>
+                      <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8 }}>
+                        Our sketches laid out how users would navigate between challenges, discussions, and leaderboards. 
+                        We emphasized clarity by visually separating each section and showing progression through language 
+                        levels and point systems.
+                      </p>
+                      <div className="mt-4">
+                        <img 
+                          src={require("../../Assets/images/duolingo-sketch-1.png")}
+                          alt="Community Hub Sketch"
+                          style={{
+                            width: '50%',
+                            height: 'auto',
+                            borderRadius: '10px',
+                            border: '1px solid rgba(199, 112, 240, 0.3)',
+                            marginBottom: '30px'
+                          }}
+                        />
+                      </div>
+                    </div>
+
+                    <div className="mb-4">
+                      <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>AR Vocabulary Scanner</h3>
+                      <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8 }}>
+                        We mapped a clear step-by-step flow: starting from language selection, granting camera permissions, 
+                        capturing an object, and showing translated vocabulary along with grammatical context. The sketch also 
+                        includes a way to switch languages or classify additional objects without restarting.
+                      </p>
+                      <div className="mt-4">
+                        <img 
+                          src={require("../../Assets/images/duolingo-sketch-2.png")}
+                          alt="AR Vocabulary Scanner Sketch"
+                          style={{
+                            width: '50%',
+                            height: 'auto',
+                            borderRadius: '10px',
+                            border: '1px solid rgba(199, 112, 240, 0.3)',
+                            marginBottom: '30px'
+                          }}
+                        />
+                      </div>
+                    </div>
+
+                    <div className="mb-4">
+                      <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>Live Conversation Interface</h3>
+                      <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8 }}>
+                        The sketch outlines the full tutor interaction—from choosing a language and proficiency level, 
+                        to selecting a tutor, joining a video call, and leaving feedback or notes. This helped us visualize 
+                        how to streamline transitions between call setup, interaction, and reflection.
+                      </p>
+                      <div className="mt-4">
+                        <img 
+                          src={require("../../Assets/images/duolingo-sketch-3.png")}
+                          alt="Live Conversation Interface Sketch"
+                          style={{
+                            width: '50%',
+                            height: 'auto',
+                            borderRadius: '10px',
+                            border: '1px solid rgba(199, 112, 240, 0.3)',
+                            marginBottom: '30px'
+                          }}
+                        />
+                      </div>
+                    </div>
+
+                    <p style={{ 
+                      color: 'white', 
+                      fontSize: '1.1rem', 
+                      opacity: 0.8,
+                      fontStyle: 'italic',
+                      marginTop: '30px'
+                    }}>
+                      These sketches ensured that our feature ideas translated into intuitive, usable interfaces right from the start.
+                    </p>
+                  </div>
+                </motion.div>
+  
+                  <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.7 }}
+                  className="affinity-section mb-5"
+                    style={{
+                      background: 'rgba(15, 22, 36, 0.8)',
+                      borderRadius: '15px',
+                      padding: '30px',
+                      backdropFilter: 'blur(4px)',
+                      border: '1px solid rgba(199, 112, 240, 0.2)'
+                    }}
+                  >
                   <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '30px' }}>
                     <FaSitemap style={{ color: '#c770f0', fontSize: '2.5rem', marginRight: '15px' }} />
                     <h2 className="project-heading" style={{ 
@@ -277,7 +401,7 @@ const DuolingoRedesign = () => {
 
                   <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '30px' }}>
                     <img 
-                      src={require("../Assets/images/duolingo-affinity-diagram.png")}
+                      src={require("../../Assets/images/duolingo-affinity-diagram.png")}
                       alt="Duolingo Affinity Diagram"
                       style={{
                         width: '90%',
@@ -286,22 +410,22 @@ const DuolingoRedesign = () => {
                         border: '1px solid rgba(199, 112, 240, 0.3)'
                       }}
                     />
-                  </div>
-                </motion.div>
+                    </div>
+                  </motion.div>
   
-                <motion.div
+                  <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.8 }}
                   className="research-section mb-5"
-                  style={{
-                    background: 'rgba(15, 22, 36, 0.8)',
-                    borderRadius: '15px',
-                    padding: '30px',
-                    backdropFilter: 'blur(4px)',
-                    border: '1px solid rgba(199, 112, 240, 0.2)'
-                  }}
-                >
+                    style={{
+                      background: 'rgba(15, 22, 36, 0.8)',
+                      borderRadius: '15px',
+                      padding: '30px',
+                      backdropFilter: 'blur(4px)',
+                      border: '1px solid rgba(199, 112, 240, 0.2)'
+                    }}
+                  >
                   <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '30px' }}>
                     <FaFlask style={{ color: '#c770f0', fontSize: '2.5rem', marginRight: '15px' }} />
                     <h2 className="project-heading" style={{ 
@@ -420,6 +544,59 @@ const DuolingoRedesign = () => {
                           </div>
                         </Col>
                       </Row>
+                      <div className="findings-subsection mt-4" style={{
+                        background: 'rgba(15, 22, 36, 0.6)',
+                        borderRadius: '15px',
+                        padding: '25px',
+                        border: '1px solid rgba(199, 112, 240, 0.2)'
+                      }}>
+                        <h4 style={{ color: '#c770f0', marginBottom: '20px' }}>Initial Research Findings:</h4>
+                        <div className="table-responsive">
+                          <table style={{
+                            width: '100%',
+                            borderCollapse: 'separate',
+                            borderSpacing: '0 8px'
+                          }}>
+                            <tbody>
+                              {[
+                                'Social Learning Community Hub',
+                                'Augmented Reality Vocabulary Scanner',
+                                'Live Conversation with Native Speakers'
+                              ].map((feature) => {
+                                const findings = {
+                                  'Social Learning Community Hub': 'Users felt isolated from others; wanted forums, social engagement, and shared learning spaces.',
+                                  'Augmented Reality Vocabulary Scanner': 'Users wanted culturally grounded learning with real-world objects; suggested scanning familiar surroundings.',
+                                  'Live Conversation with Native Speakers': 'Users expressed a need for real conversational practice to understand grammar and slang.'
+                                };
+
+                                return (
+                                  <tr key={feature} style={{
+                                    background: 'rgba(15, 22, 36, 0.4)',
+                                    marginBottom: '8px'
+                                  }}>
+                                    <td style={{
+                                      color: '#c770f0',
+                                      padding: '16px',
+                                      width: '30%',
+                                      borderLeft: '3px solid #c770f0',
+                                      borderRadius: '4px 0 0 4px'
+                                    }}>
+                                      {feature}
+                                    </td>
+                                    <td style={{
+                                      color: 'white',
+                                      padding: '16px',
+                                      borderRadius: '0 4px 4px 0'
+                                    }}>
+                                      {findings[feature]}
+                                    </td>
+                                  </tr>
+                                );
+                              })}
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
                     </div>
 
                     {/* Mid-Fidelity Testing Section */}
@@ -511,6 +688,59 @@ const DuolingoRedesign = () => {
                           </div>
                         </Col>
                       </Row>
+                      <div className="findings-subsection mt-4" style={{
+                        background: 'rgba(15, 22, 36, 0.6)',
+                        borderRadius: '15px',
+                        padding: '25px',
+                        border: '1px solid rgba(199, 112, 240, 0.2)'
+                      }}>
+                        <h4 style={{ color: '#c770f0', marginBottom: '20px' }}>Mid-Fidelity Testing Findings:</h4>
+                        <div className="table-responsive">
+                          <table style={{
+                            width: '100%',
+                            borderCollapse: 'separate',
+                            borderSpacing: '0 8px'
+                          }}>
+                            <tbody>
+                              {[
+                                'Social Learning Community Hub',
+                                'Augmented Reality Vocabulary Scanner',
+                                'Live Conversation with Native Speakers'
+                              ].map((feature) => {
+                                const findings = {
+                                  'Social Learning Community Hub': 'Leaderboard and discussion threads were unclear; lacked filters and structured categories.',
+                                  'Augmented Reality Vocabulary Scanner': 'Unclear object selection feedback; missing options to redo or confirm image; UI confusion on actions.',
+                                  'Live Conversation with Native Speakers': "Users didn't know what to do in video chat; lacked prompts or clear next steps."
+                                };
+
+                                return (
+                                  <tr key={feature} style={{
+                                    background: 'rgba(15, 22, 36, 0.4)',
+                                    marginBottom: '8px'
+                                  }}>
+                                    <td style={{
+                                      color: '#c770f0',
+                                      padding: '16px',
+                                      width: '30%',
+                                      borderLeft: '3px solid #c770f0',
+                                      borderRadius: '4px 0 0 4px'
+                                    }}>
+                                      {feature}
+                                    </td>
+                                    <td style={{
+                                      color: 'white',
+                                      padding: '16px',
+                                      borderRadius: '0 4px 4px 0'
+                                    }}>
+                                      {findings[feature]}
+                                    </td>
+                                  </tr>
+                                );
+                              })}
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
                     </div>
 
                     {/* Final Testing Section */}
@@ -602,15 +832,68 @@ const DuolingoRedesign = () => {
                           </div>
                         </Col>
                       </Row>
+                      <div className="findings-subsection mt-4" style={{
+                        background: 'rgba(15, 22, 36, 0.6)',
+                        borderRadius: '15px',
+                        padding: '25px',
+                        border: '1px solid rgba(199, 112, 240, 0.2)'
+                      }}>
+                        <h4 style={{ color: '#c770f0', marginBottom: '20px' }}>Final Testing Findings:</h4>
+                        <div className="table-responsive">
+                          <table style={{
+                            width: '100%',
+                            borderCollapse: 'separate',
+                            borderSpacing: '0 8px'
+                          }}>
+                            <tbody>
+                              {[
+                                'Social Learning Community Hub',
+                                'Augmented Reality Vocabulary Scanner',
+                                'Live Conversation with Native Speakers'
+                              ].map((feature) => {
+                                const findings = {
+                                  'Social Learning Community Hub': 'Added clearer navigation and filters; redesigned UI for easier challenge discovery.',
+                                  'Augmented Reality Vocabulary Scanner': 'Added object confirmation, save/retake options, and clearer on-screen feedback.',
+                                  'Live Conversation with Native Speakers': 'Introduced reminders for conversation prompts; improved tutor selection feedback and relabeling.'
+                                };
+
+                                return (
+                                  <tr key={feature} style={{
+                                    background: 'rgba(15, 22, 36, 0.4)',
+                                    marginBottom: '8px'
+                                  }}>
+                                    <td style={{
+                                      color: '#c770f0',
+                                      padding: '16px',
+                                      width: '30%',
+                                      borderLeft: '3px solid #c770f0',
+                                      borderRadius: '4px 0 0 4px'
+                                    }}>
+                                      {feature}
+                                    </td>
+                                    <td style={{
+                                      color: 'white',
+                                      padding: '16px',
+                                      borderRadius: '0 4px 4px 0'
+                                    }}>
+                                      {findings[feature]}
+                                    </td>
+                                  </tr>
+                                );
+                              })}
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </motion.div>
+                    </div>
+                  </motion.div>
   
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.8 }}
-                  className="sketches-section mb-5"
+                  transition={{ duration: 0.5, delay: 0.4 }}
+                  className="learning-principles-section mb-5"
                   style={{
                     background: 'rgba(15, 22, 36, 0.8)',
                     borderRadius: '15px',
@@ -620,15 +903,15 @@ const DuolingoRedesign = () => {
                   }}
                 >
                   <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '30px' }}>
-                    <FaPencilAlt style={{ color: '#c770f0', fontSize: '2.5rem', marginRight: '15px' }} />
+                    <FaLightbulb style={{ color: '#c770f0', fontSize: '2.5rem', marginRight: '15px' }} />
                     <h2 className="project-heading" style={{ 
                       textAlign: 'center',
                       margin: 0,
                       color: 'white'
                     }}>
-                      Design <span style={{ color: '#c770f0' }}>Sketches</span>
+                      Connection to <span style={{ color: '#c770f0' }}>Learning Principles</span>
                     </h2>
-                    <FaPencilAlt style={{ color: '#c770f0', fontSize: '2.5rem', marginLeft: '15px' }} />
+                    <FaLightbulb style={{ color: '#c770f0', fontSize: '2.5rem', marginLeft: '15px' }} />
                   </div>
 
                   <p style={{ 
@@ -638,102 +921,76 @@ const DuolingoRedesign = () => {
                     opacity: 0.8,
                     marginBottom: '30px'
                   }}>
-                    To address Maria's needs and pain points, we created detailed sketches for each feature. These early visuals 
-                    helped us define the layout, screen transitions, and interaction logic before moving into high-fidelity prototypes.
+                    Each of our redesigned features was grounded in well-established learning theories:
                   </p>
 
-                  <div className="sketch-descriptions">
+                  <div style={{ marginLeft: '20px' }}>
                     <div className="mb-4">
-                      <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>Community Hub</h3>
-                      <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8 }}>
-                        Our sketches laid out how users would navigate between challenges, discussions, and leaderboards. 
-                        We emphasized clarity by visually separating each section and showing progression through language 
-                        levels and point systems.
+                      <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>Social Learning Community Hub</h3>
+                      <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8, lineHeight: '1.8' }}>
+                        This feature draws from Social Constructivism and Social Learning Theory, emphasizing peer-based learning, shared challenges, and community support. 
+                        By fostering interaction through discussion forums and collaborative minigames, we enabled learners—especially those from marginalized backgrounds—to 
+                        co-construct knowledge in a supportive environment. The design aligns with motivation theory as well, using leaderboards and peer encouragement to 
+                        sustain learning.
                       </p>
-                      <div className="mt-4">
-                        <img 
-                          src={require("../Assets/images/duolingo-sketch-1.png")}
-                          alt="Community Hub Sketch"
-                          style={{
-                            width: '50%',
-                            height: 'auto',
-                            borderRadius: '10px',
-                            border: '1px solid rgba(199, 112, 240, 0.3)',
-                            marginBottom: '30px'
-                          }}
-                        />
-                      </div>
                     </div>
 
                     <div className="mb-4">
-                      <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>AR Vocabulary Scanner</h3>
-                      <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8 }}>
-                        We mapped a clear step-by-step flow: starting from language selection, granting camera permissions, 
-                        capturing an object, and showing translated vocabulary along with grammatical context. The sketch also 
-                        includes a way to switch languages or classify additional objects without restarting.
+                      <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>Augmented Reality Vocabulary Scanner</h3>
+                      <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8, lineHeight: '1.8' }}>
+                        Our AR feature was inspired by Situated Cognition and Embodied Learning, ensuring that vocabulary acquisition happens in real-world contexts. 
+                        Learners build connections between the objects they encounter and the language they're learning. We also applied Distributed Cognition by 
+                        integrating camera, text, and interaction in a seamless interface, treating the environment as part of the cognitive system.
                       </p>
-                      <div className="mt-4">
-                        <img 
-                          src={require("../Assets/images/duolingo-sketch-2.png")}
-                          alt="AR Vocabulary Scanner Sketch"
-                          style={{
-                            width: '50%',
-                            height: 'auto',
-                            borderRadius: '10px',
-                            border: '1px solid rgba(199, 112, 240, 0.3)',
-                            marginBottom: '30px'
-                          }}
-                        />
-                      </div>
                     </div>
 
                     <div className="mb-4">
-                      <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>Live Conversation Interface</h3>
-                      <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8 }}>
-                        The sketch outlines the full tutor interaction—from choosing a language and proficiency level, 
-                        to selecting a tutor, joining a video call, and leaving feedback or notes. This helped us visualize 
-                        how to streamline transitions between call setup, interaction, and reflection.
+                      <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>Live Conversation with Native Speakers</h3>
+                      <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8, lineHeight: '1.8' }}>
+                        This feature leverages Vygotsky's Zone of Proximal Development and Sociocultural Theory. Real-time, authentic dialogue allows learners to 
+                        stretch their capabilities with support, building fluency through practice. Prompts and personalized tutor recommendations further enable 
+                        learners to apply their language skills in meaningful ways, bridging academic learning with real-life communication.
                       </p>
-                      <div className="mt-4">
-                        <img 
-                          src={require("../Assets/images/duolingo-sketch-3.png")}
-                          alt="Live Conversation Interface Sketch"
-                          style={{
-                            width: '50%',
-                            height: 'auto',
-                            borderRadius: '10px',
-                            border: '1px solid rgba(199, 112, 240, 0.3)',
-                            marginBottom: '30px'
-                          }}
-                        />
-                      </div>
                     </div>
-
-                    <p style={{ 
-                      color: 'white', 
-                      fontSize: '1.1rem', 
-                      opacity: 0.8,
-                      fontStyle: 'italic',
-                      marginTop: '30px'
-                    }}>
-                      These sketches ensured that our feature ideas translated into intuitive, usable interfaces right from the start.
-                    </p>
                   </div>
                 </motion.div>
-  
+
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 1 }}
                   className="prototype-section mb-5"
+                  style={{
+                    background: 'rgba(15, 22, 36, 0.8)',
+                    borderRadius: '15px',
+                    padding: '30px',
+                    backdropFilter: 'blur(4px)',
+                    border: '1px solid rgba(199, 112, 240, 0.2)'
+                  }}
                 >
-                  <h2 className="project-heading" style={{ 
-                    textAlign: 'center',
+                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '30px' }}>
+                    <FaCode style={{ color: '#c770f0', fontSize: '2.5rem', marginRight: '15px' }} />
+                    <h2 className="project-heading" style={{ 
+                      textAlign: 'center',
+                      margin: 0,
+                      color: 'white'
+                    }}>
+                      Final <span style={{ color: '#c770f0' }}>Figma Prototype</span>
+                    </h2>
+                    <FaCode style={{ color: '#c770f0', fontSize: '2.5rem', marginLeft: '15px' }} />
+                  </div>
+
+                  <p style={{ 
+                    color: 'white',
+                    fontSize: '1.1rem',
+                    lineHeight: '1.8',
+                    opacity: 0.8,
                     marginBottom: '30px',
-                    color: 'white'
+                    textAlign: 'center'
                   }}>
-                    Interactive <span style={{ color: '#c770f0' }}>Prototype</span>
-                  </h2>
+                    Explore our interactive prototype below to see how we've implemented the new features and improvements.
+                  </p>
+
                   <div className="iframe-container" style={{ 
                     position: 'relative',
                     paddingBottom: '56.25%',
@@ -758,20 +1015,43 @@ const DuolingoRedesign = () => {
                     />
                   </div>
                 </motion.div>
-  
+
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 1.2 }}
+                  transition={{ duration: 0.5, delay: 1.1 }}
                   className="presentation-section mb-5"
+                  style={{
+                    background: 'rgba(15, 22, 36, 0.8)',
+                    borderRadius: '15px',
+                    padding: '30px',
+                    backdropFilter: 'blur(4px)',
+                    border: '1px solid rgba(199, 112, 240, 0.2)'
+                  }}
                 >
-                  <h2 className="project-heading" style={{ 
-                    textAlign: 'center',
+                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '30px' }}>
+                    <FaChalkboardTeacher style={{ color: '#c770f0', fontSize: '2.5rem', marginRight: '15px' }} />
+                    <h2 className="project-heading" style={{ 
+                      textAlign: 'center',
+                      margin: 0,
+                      color: 'white'
+                    }}>
+                      Project <span style={{ color: '#c770f0' }}>Presentation</span>
+                    </h2>
+                    <FaChalkboardTeacher style={{ color: '#c770f0', fontSize: '2.5rem', marginLeft: '15px' }} />
+                  </div>
+
+                  <p style={{ 
+                    color: 'white',
+                    fontSize: '1.1rem',
+                    lineHeight: '1.8',
+                    opacity: 0.8,
                     marginBottom: '30px',
-                    color: 'white'
+                    textAlign: 'center'
                   }}>
-                    Project <span style={{ color: '#c770f0' }}>Presentation</span>
-                  </h2>
+                    View our complete project presentation detailing our research, design process, and final outcomes.
+                  </p>
+
                   <div className="iframe-container" style={{ 
                     position: 'relative',
                     paddingBottom: '56.25%',
@@ -795,6 +1075,65 @@ const DuolingoRedesign = () => {
                       allowFullScreen
                     />
                   </div>
+                </motion.div>
+
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 1.2 }}
+                  className="reflection-section mb-5"
+                  style={{
+                    background: 'rgba(15, 22, 36, 0.8)',
+                    borderRadius: '15px',
+                    padding: '30px',
+                    backdropFilter: 'blur(4px)',
+                    border: '1px solid rgba(199, 112, 240, 0.2)'
+                  }}
+                >
+                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '30px' }}>
+                    <FaUserCircle style={{ color: '#c770f0', fontSize: '2.5rem', marginRight: '15px' }} />
+                    <h2 className="project-heading" style={{ 
+                      textAlign: 'center',
+                      margin: 0,
+                      color: 'white'
+                    }}>
+                      Personal <span style={{ color: '#c770f0' }}>Reflection</span>
+                    </h2>
+                    <FaUserCircle style={{ color: '#c770f0', fontSize: '2.5rem', marginLeft: '15px' }} />
+                  </div>
+
+                  <p style={{ 
+                    color: 'white',
+                    fontSize: '1.1rem',
+                    lineHeight: '1.8',
+                    opacity: 0.8
+                  }}>
+                    Working on this project taught me the importance of designing educational tools not just for usability or engagement—but for equity, inclusion, 
+                    and real-world impact. At every step, from early sketches to our final Figma prototype, I learned how critical it is to center the voices of 
+                    actual users, especially those who are often underserved by existing platforms.
+                  </p>
+
+                  <p style={{ 
+                    color: 'white',
+                    fontSize: '1.1rem',
+                    lineHeight: '1.8',
+                    opacity: 0.8,
+                    marginTop: '20px'
+                  }}>
+                    I also gained a much deeper understanding of how learning science theories can directly inform interface design. Features like AR scanning or 
+                    live conversations aren't just "cool" ideas—they're effective because they're backed by how people actually learn best.
+                  </p>
+
+                  <p style={{ 
+                    color: 'white',
+                    fontSize: '1.1rem',
+                    lineHeight: '1.8',
+                    opacity: 0.8,
+                    marginTop: '20px'
+                  }}>
+                    Above all, this project made me realize that great edtech isn't just about building tools—it's about empowering learners to see themselves as 
+                    capable, valued participants in their own learning journey.
+                  </p>
                 </motion.div>
               </motion.div>
             </Col>

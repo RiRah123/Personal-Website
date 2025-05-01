@@ -3,7 +3,7 @@ import Home from "./Home/Home";
 import About from "./About/About";
 import Projects from "./Projects/Projects";
 import Resume from "./Resume/Resume";
-import DuolingoRedesign from "./DuolingoRedesign";
+import DuolingoRedesign from "./EducationalTechnology/DuolingoRedesign";
 import {
     Route,
     Routes,
@@ -11,6 +11,7 @@ import {
     useLocation
   } from "react-router-dom";
 import {AnimatePresence} from "framer-motion";
+import EducationalTechnology from './EducationalTechnology/EducationalTechnology';
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -23,7 +24,7 @@ function AnimatedRoutes() {
                 <Route path="/project" element={<Projects />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/resume" element={<Resume />} />
-                <Route path="/duolingo-redesign" element={<DuolingoRedesign />} />
+                <Route path="/educational-technology-portfolio" element={<EducationalTechnology />} />
                 <Route path="*" element={<Navigate to="/"/>} />
             </Routes>
         </AnimatePresence>
