@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Personal-Website/static/css/main.3d01079a.css",
-    "main.js": "/Personal-Website/static/js/main.38624b61.js",
+    "main.js": "/Personal-Website/static/js/main.7356f3f7.js",
     "static/js/415.4d6acbeb.chunk.js": "/Personal-Website/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Personal-Website/static/js/787.1ed0c42c.chunk.js",
     "static/media/aframe-3d-replica.gif": "/Personal-Website/static/media/aframe-3d-replica.e989c9aa73bd549a49f1.gif",
@@ -26,10 +26,13 @@
     "static/media/GoldenSignature.otf": "/Personal-Website/static/media/GoldenSignature.0117d2c54e5b58d51ae3.otf",
     "static/media/anilingo-initial-prototype-1.png": "/Personal-Website/static/media/anilingo-initial-prototype-1.3ec49681d4ae1308dd72.png",
     "static/media/unix-terminal-shell.gif": "/Personal-Website/static/media/unix-terminal-shell.a59bada72110e05e9f31.gif",
+    "static/media/lingQ.png": "/Personal-Website/static/media/lingQ.5d3f637ab8249e4d4755.png",
     "static/media/Rian-Rahman-Resume-1.pdf": "/Personal-Website/static/media/Rian-Rahman-Resume-1.9f967bb65e26de6bcf7e.pdf",
     "static/media/home-main.svg": "/Personal-Website/static/media/home-main.9a54a1ed8c56da727dc31430c68a08a7.svg",
+    "static/media/fluentU.jpg": "/Personal-Website/static/media/fluentU.15b2f5ef446ad679251e.jpg",
     "static/media/grandstage-logo.png": "/Personal-Website/static/media/grandstage-logo.18ac165ab99fe8a9afbd.png",
     "static/media/duolingo-affinity-diagram.png": "/Personal-Website/static/media/duolingo-affinity-diagram.ef1f75c7af1c6a4bac66.png",
+    "static/media/quizlet.png": "/Personal-Website/static/media/quizlet.d221451940cc15395a61.png",
     "static/media/hp-logo.png": "/Personal-Website/static/media/hp-logo.e1d58ca9acd6403de21f.png",
     "static/media/uga-logo.png": "/Personal-Website/static/media/uga-logo.0e00c613ad93c7a941f6.png",
     "static/media/anilingo-user-1.jpeg": "/Personal-Website/static/media/anilingo-user-1.65deae1a35af7fadda9c.jpeg",
@@ -40,12 +43,12 @@
     "static/media/java.svg": "/Personal-Website/static/media/java.1701b588e57240043c79deaad59fa2b1.svg",
     "index.html": "/Personal-Website/index.html",
     "main.3d01079a.css.map": "/Personal-Website/static/css/main.3d01079a.css.map",
-    "main.38624b61.js.map": "/Personal-Website/static/js/main.38624b61.js.map",
+    "main.7356f3f7.js.map": "/Personal-Website/static/js/main.7356f3f7.js.map",
     "415.4d6acbeb.chunk.js.map": "/Personal-Website/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Personal-Website/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d01079a.css",
-    "static/js/main.38624b61.js"
+    "static/js/main.7356f3f7.js"
   ]
 }
