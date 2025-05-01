@@ -903,7 +903,7 @@ function AnilingoProject() {
                       border: '1px solid rgba(199, 112, 240, 0.3)'
                     }}>
                       <iframe
-                        src="https://www.youtube.com/embed/ozU_aAXcUAk?controls=0&rel=0&modestbranding=1"
+                        src="https://www.youtube.com/embed/ozU_aAXcUAk"
                         style={{
                           position: 'absolute',
                           top: 0,
