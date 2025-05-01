@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Personal-Website/static/css/main.3d01079a.css",
-    "main.js": "/Personal-Website/static/js/main.dc8c7013.js",
+    "main.js": "/Personal-Website/static/js/main.67e44054.js",
     "static/js/415.4d6acbeb.chunk.js": "/Personal-Website/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Personal-Website/static/js/787.1ed0c42c.chunk.js",
     "static/media/aframe-3d-replica.gif": "/Personal-Website/static/media/aframe-3d-replica.e989c9aa73bd549a49f1.gif",
@@ -14,6 +14,7 @@
     "static/media/inventracker.gif": "/Personal-Website/static/media/inventracker.77f1e9a68669ba52cf54.gif",
     "static/media/eatcode.gif": "/Personal-Website/static/media/eatcode.3d3a1053afb32c5d49c3.gif",
     "static/media/duolingo-persona.png": "/Personal-Website/static/media/duolingo-persona.fdcacdec896c11a8893c.png",
+    "static/media/Educational Technology Final Group Presentation Slides.pdf": "/Personal-Website/static/media/Educational Technology Final Group Presentation Slides.f542c98863c236055550.pdf",
     "static/media/anilingo-initial-prototype-3.png": "/Personal-Website/static/media/anilingo-initial-prototype-3.b236625b65be98a8782a.png",
     "static/media/duolingo-sketch-2.png": "/Personal-Website/static/media/duolingo-sketch-2.81d92da94fd04a5fc2b5.png",
     "static/media/duolingo-sketch-1.png": "/Personal-Website/static/media/duolingo-sketch-1.01b6d7e90d1944a5269b.png",
@@ -39,12 +40,12 @@
     "static/media/java.svg": "/Personal-Website/static/media/java.1701b588e57240043c79deaad59fa2b1.svg",
     "index.html": "/Personal-Website/index.html",
     "main.3d01079a.css.map": "/Personal-Website/static/css/main.3d01079a.css.map",
-    "main.dc8c7013.js.map": "/Personal-Website/static/js/main.dc8c7013.js.map",
+    "main.67e44054.js.map": "/Personal-Website/static/js/main.67e44054.js.map",
     "415.4d6acbeb.chunk.js.map": "/Personal-Website/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Personal-Website/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d01079a.css",
-    "static/js/main.dc8c7013.js"
+    "static/js/main.67e44054.js"
   ]
 }
