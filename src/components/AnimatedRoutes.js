@@ -3,6 +3,7 @@ import Home from "./Home/Home";
 import About from "./About/About";
 import Projects from "./Projects/Projects";
 import Resume from "./Resume/Resume";
+import DuolingoRedesign from "./DuolingoRedesign";
 import {
     Route,
     Routes,
@@ -22,6 +23,7 @@ function AnimatedRoutes() {
                 <Route path="/project" element={<Projects />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/resume" element={<Resume />} />
+                <Route path="/duolingo-redesign" element={<DuolingoRedesign />} />
                 <Route path="*" element={<Navigate to="/"/>} />
             </Routes>
         </AnimatePresence>
