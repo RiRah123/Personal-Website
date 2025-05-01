@@ -215,9 +215,23 @@ function AnilingoProject() {
                     maxWidth: '800px',
                     margin: '0 auto'
                   }}>
-                    FluentU's interactive subtitles in real-world videos inspired AniLingo's clickable phrases feature, 
-                    allowing users to learn language in authentic contexts through anime content.
+                    FluentU's innovative approach to language learning through real-world videos with interactive subtitles
+                    directly influenced AniLingo's core feature of clickable phrases in context. This immersive learning
+                    method allows users to naturally absorb language while engaging with authentic content they enjoy.
                   </p>
+                  <div className="mt-4">
+                    <img 
+                      src={require("../../Assets/images/inspirations/fluentU.jpg")}
+                      alt="FluentU Interface"
+                      style={{
+                        width: '30%',
+                        height: 'auto',
+                        borderRadius: '10px',
+                        border: '1px solid rgba(199, 112, 240, 0.3)',
+                        marginBottom: '30px'
+                      }}
+                    />
+                  </div>
                 </div>
 
                 <div className="mb-4">
@@ -235,9 +249,23 @@ function AnilingoProject() {
                     maxWidth: '800px',
                     margin: '0 auto'
                   }}>
-                    LingQ's interactive transcripts influenced our phrase breakdown panel and personalized "phrase library" 
-                    feature, enhancing the learning experience through detailed analysis and organization.
+                    LingQ's powerful interactive transcript system inspired our comprehensive phrase breakdown panel and
+                    personalized "phrase library" feature. Their approach to contextual learning and content organization
+                    helped shape how we present detailed analysis and organize learned phrases for effective review.
                   </p>
+                  <div className="mt-4">
+                    <img 
+                      src={require("../../Assets/images/inspirations/lingQ.png")}
+                      alt="LingQ Interface"
+                      style={{
+                        width: '30%',
+                        height: 'auto',
+                        borderRadius: '10px',
+                        border: '1px solid rgba(199, 112, 240, 0.3)',
+                        marginBottom: '30px'
+                      }}
+                    />
+                  </div>
                 </div>
 
                 <div className="mb-4">
@@ -255,9 +283,23 @@ function AnilingoProject() {
                     maxWidth: '800px',
                     margin: '0 auto'
                   }}>
-                    Quizlet's simplified flashcard interface inspired our "quick quiz" feature, implementing spaced 
-                    repetition for effective phrase retention and reinforcement learning.
+                    Quizlet's renowned flashcard interface and spaced repetition system influenced our "quick quiz" feature.
+                    By incorporating these proven learning methods after each phrase introduction, we ensure better retention
+                    and provide users with systematic reinforcement of their learning through engaging practice sessions.
                   </p>
+                  <div className="mt-4">
+                    <img 
+                      src={require("../../Assets/images/inspirations/quizlet.png")}
+                      alt="Quizlet Interface"
+                      style={{
+                        width: '30%',
+                        height: 'auto',
+                        borderRadius: '10px',
+                        border: '1px solid rgba(199, 112, 240, 0.3)',
+                        marginBottom: '30px'
+                      }}
+                    />
+                  </div>
                 </div>
               </div>
             </motion.div>
@@ -1072,7 +1114,7 @@ function AnilingoProject() {
                 height: '600px',
                 position: 'relative',
                 marginBottom: '20px',
-                backgroundColor: 'rgba(15, 22, 36, 0.5)',
+                backgroundColor: '#f5f5f5',
                 border: '1px solid rgba(199, 112, 240, 0.3)',
                 borderRadius: '10px',
                 overflow: 'hidden'
@@ -1087,7 +1129,8 @@ function AnilingoProject() {
                     position: 'absolute',
                     top: 0,
                     left: 0,
-                    zIndex: 1
+                    zIndex: 1,
+                    backgroundColor: '#f5f5f5'
                   }}
                   allow="fullscreen"
                   referrerPolicy="origin"
@@ -1099,10 +1142,12 @@ function AnilingoProject() {
                   left: '50%',
                   transform: 'translate(-50%, -50%)',
                   textAlign: 'center',
-                  zIndex: 0
+                  zIndex: 0,
+                  width: '100%',
+                  padding: '20px'
                 }}>
-                  <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8 }}>
-                    If the prototype doesn't load, you can <a 
+                  <p style={{ color: '#333', fontSize: '1.1rem' }}>
+                    Loading prototype... If it doesn't load, you can <a 
                       href="https://app.uizard.io/p/2c732cc0" 
                       target="_blank" 
                       rel="noopener noreferrer"

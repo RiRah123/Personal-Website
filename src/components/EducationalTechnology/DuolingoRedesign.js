@@ -1002,55 +1002,51 @@ const DuolingoRedesign = () => {
                 Explore our interactive prototype below to see how we've implemented the new features and improvements.
               </p>
 
-              <div className="iframe-container" style={{ 
+              <div style={{ 
+                width: '100%',
+                height: '600px',
                 position: 'relative',
-                paddingBottom: '56.25%',
-                height: 0,
-                overflow: 'hidden',
-                borderRadius: '15px',
-                border: '1px solid rgba(199, 112, 240, 0.2)',
-                background: 'rgba(15, 22, 36, 0.8)'
+                marginBottom: '20px',
+                backgroundColor: 'rgba(15, 22, 36, 0.5)',
+                border: '1px solid rgba(199, 112, 240, 0.3)',
+                borderRadius: '10px',
+                overflow: 'hidden'
               }}>
-                {!prototypeLoaded && (
-                  <div style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    width: '100%',
-                    height: '100%',
-                    display: 'flex',
-                    justifyContent: 'center',
-                    alignItems: 'center',
-                    background: 'rgba(15, 22, 36, 0.9)',
-                    zIndex: 2
-                  }}>
-                    <div style={{
-                      color: '#c770f0',
-                      padding: '1rem 2rem',
-                      border: '2px solid #c770f0',
-                      borderRadius: '8px',
-                      fontSize: '1.1rem'
-                    }}>
-                      Loading Prototype...
-                    </div>
-                  </div>
-                )}
                 <iframe
                   src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fj6HivR2IfnOgkMTiIjm9Pj%2FDuolingo-Improvement%3Fnode-id%3D3-2%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D3%253A2"
+                  title="Figma Prototype"
                   style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
                     width: '100%',
                     height: '100%',
                     border: 'none',
-                    opacity: prototypeLoaded ? 1 : 0,
-                    transition: 'opacity 0.3s ease'
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    zIndex: 1
                   }}
-                  title="Figma Prototype"
-                  onLoad={() => handleLoad('prototype')}
-                  allowFullScreen
+                  allow="fullscreen"
+                  referrerPolicy="origin"
+                  sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
                 />
+                <div style={{
+                  position: 'absolute',
+                  top: '50%',
+                  left: '50%',
+                  transform: 'translate(-50%, -50%)',
+                  textAlign: 'center',
+                  zIndex: 0
+                }}>
+                  <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8 }}>
+                    If the prototype doesn't load, you can <a 
+                      href="https://www.figma.com/proto/j6HivR2IfnOgkMTiIjm9Pj/Duolingo-Improvement?node-id=3-2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A2" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      style={{ color: '#c770f0', textDecoration: 'underline' }}
+                    >
+                      view it directly on Figma
+                    </a>
+                  </p>
+                </div>
               </div>
             </motion.div>
 
