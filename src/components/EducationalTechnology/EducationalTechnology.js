@@ -98,4 +98,4 @@ function EducationalTechnology() {
   );
 }
 
-export default EducationalTechnology; 
+export default EducationalTechnology;

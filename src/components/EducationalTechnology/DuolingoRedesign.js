@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { motion } from 'framer-motion';
 import { FaBullseye, FaCrosshairs, FaLightbulb, FaHandshake, FaPencilAlt, FaUserCircle, FaSitemap, FaFlask, FaComments, FaTools, FaCheckCircle, FaCode, FaChalkboardTeacher } from "react-icons/fa";
 import { BsPeopleFill, BsTranslate, BsCameraFill } from "react-icons/bs";
+import presentationPDF from '../../Assets/Educational Technology Final Group Presentation Slides.pdf';
 import '../../style.css';
 
 const DuolingoRedesign = () => {
@@ -1099,7 +1100,18 @@ const DuolingoRedesign = () => {
                 border: '1px solid rgba(199, 112, 240, 0.2)',
                 background: 'rgba(15, 22, 36, 0.8)'
               }}>
-                {!presentationLoaded && (
+                <object
+                  data={presentationPDF}
+                  type="application/pdf"
+                  style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    height: '100%',
+                    border: 'none'
+                  }}
+                >
                   <div style={{
                     position: 'absolute',
                     top: 0,
@@ -1110,35 +1122,22 @@ const DuolingoRedesign = () => {
                     justifyContent: 'center',
                     alignItems: 'center',
                     background: 'rgba(15, 22, 36, 0.9)',
-                    zIndex: 2
+                    color: '#c770f0',
+                    padding: '2rem'
                   }}>
-                    <div style={{
-                      color: '#c770f0',
-                      padding: '1rem 2rem',
-                      border: '2px solid #c770f0',
-                      borderRadius: '8px',
-                      fontSize: '1.1rem'
-                    }}>
-                      Loading Presentation...
-                    </div>
+                    <p>
+                      It seems your browser doesn't support embedded PDFs.{' '}
+                      <a 
+                        href={presentationPDF}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ color: '#c770f0', textDecoration: 'underline' }}
+                      >
+                        Click here to download the PDF
+                      </a>
+                    </p>
                   </div>
-                )}
-                <iframe
-                  src="https://gtvault-my.sharepoint.com/:p:/g/personal/dsingh93_gatech_edu/EXbf5GXKatJJhDOHmmwoZTsBbR06zz5uwLbiLh78XutmMQ?e=X2C2et&amp;embed=true"
-                  style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    width: '100%',
-                    height: '100%',
-                    border: 'none',
-                    opacity: presentationLoaded ? 1 : 0,
-                    transition: 'opacity 0.3s ease'
-                  }}
-                  title="Project Presentation"
-                  onLoad={() => handleLoad('presentation')}
-                  allowFullScreen
-                />
+                </object>
               </div>
             </motion.div>
 
