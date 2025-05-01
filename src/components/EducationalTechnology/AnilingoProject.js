@@ -903,7 +903,7 @@ function AnilingoProject() {
                       border: '1px solid rgba(199, 112, 240, 0.3)'
                     }}>
                       <iframe
-                        src="https://gtvault-my.sharepoint.com/personal/dsingh93_gatech_edu/_layouts/15/embed.aspx?UniqueId=731290b4-6c84-46e1-a54b-393fe9d8ede4&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create"
+                        src="https://www.youtube.com/embed/ozU_aAXcUAk?controls=0&rel=0&modestbranding=1"
                         style={{
                           position: 'absolute',
                           top: 0,
