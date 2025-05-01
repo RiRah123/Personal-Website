@@ -1,4 +1,5 @@
 # Personal Website
+
 [![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=HTML5&logoColor=white)]()
 [![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS3&logoColor=white)]()
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)]()
@@ -18,6 +19,7 @@ This repository serves as the main codebase for my personal website. Originally,
 http://rian-rahman.com
 
 ## About the Website
+
 I have made this website public with the goal of giving anyone a better understanding of `brand` and `purpose`. Through navigating on the site, users can learn a little more about me whether it be my hobbies, interests, skills, and previous experience/projects.
 
 Additionally, I hope by making my website public, anyone can provide any suggestions, additions, or edits to the website. If you have any criticisms, please feel free to reach out to me, and I would be more than happy to take them into consideration.
@@ -42,9 +44,11 @@ Using the terminal:
    ```
    $ npm run start
    ```
-   
+
 ## Design Aesthetic of the Website
+
 To communicate my brand to any potiential users, I applied a simplistic design to my website. The color palette is limited to only two colors: purple and white. White is used for any general descriptive text, whereas purple is used for text that needs to grab the user's attention. Likewise, I simplified the site's typography. For the most part, I used only a sans-serif font called Raleway. An exception is a logo on the top left corner, which uses a font that I imported called GoldenSignature. With a limited font family on the site, I hope my website is easily readable for users. Finally, gridding is integrated with the site. The "About" page is subdivided vertically into multiple sections with a heading on top, indicating what that section is about. The "Project" is aligned horizontally, such that each project is within a card component. As a whole, the gridding provides an organized structure for the site.
 
 ## Credits
+
 I would like to note that I built this website on top of an existing web template. If you want to check out the template, please refer to the following GitHub Repo: https://github.com/soumyajit4419/Portfolio.
