@@ -9,6 +9,7 @@ import {
 } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { CgFileDocument } from "react-icons/cg";
+import { FaGraduationCap } from "react-icons/fa";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -81,6 +82,19 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/educational-technology-portfolio"
+                onClick={() => updateExpanded(false)}
+                className="cursor-clickable"
+              >
+                <FaGraduationCap
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Portfolio
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
