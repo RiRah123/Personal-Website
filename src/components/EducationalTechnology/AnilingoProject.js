@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { motion } from "framer-motion";
-import { FaLightbulb, FaUserCircle, FaBullseye, FaTools, FaGraduationCap, FaComments, FaCheckCircle, FaLaptopCode, FaCode } from "react-icons/fa";
+import { FaLightbulb, FaUserCircle, FaBullseye, FaTools, FaGraduationCap, FaComments, FaCheckCircle, FaLaptopCode, FaCode, FaPencilAlt } from "react-icons/fa";
 import { BsTranslate, BsPlayCircle, BsCollection } from "react-icons/bs";
 
 function AnilingoProject() {
@@ -155,6 +155,106 @@ function AnilingoProject() {
                       margin: '0 auto'
                     }}>
                       Recall and reproduce the pronunciation and form of learned phrases in future anime viewing or spoken interactions.
+                    </p>
+                  </div>
+                </div>
+              </motion.div>
+
+              {/* Technology Inspirations Section */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.35 }}
+                className="tech-inspiration-section mb-5"
+                style={{
+                  background: 'rgba(15, 22, 36, 0.8)',
+                  borderRadius: '15px',
+                  padding: '30px',
+                  backdropFilter: 'blur(4px)',
+                  border: '1px solid rgba(199, 112, 240, 0.2)'
+                }}
+              >
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '30px' }}>
+                  <FaLaptopCode style={{ color: '#c770f0', fontSize: '2.5rem', marginRight: '15px' }} />
+                  <h2 className="project-heading" style={{ 
+                    textAlign: 'center',
+                    margin: 0,
+                    color: 'white'
+                  }}>
+                    Technology <span style={{ color: '#c770f0' }}>Inspirations</span>
+                  </h2>
+                  <FaLaptopCode style={{ color: '#c770f0', fontSize: '2.5rem', marginLeft: '15px' }} />
+                </div>
+
+                <p style={{ 
+                  color: 'white',
+                  fontSize: '1.1rem',
+                  lineHeight: '1.8',
+                  opacity: 0.8,
+                  marginBottom: '30px',
+                  textAlign: 'center'
+                }}>
+                  Several innovative language learning platforms have influenced AniLingo's design and functionality:
+                </p>
+
+                <div style={{ marginLeft: '0', textAlign: 'center' }}>
+                  <div className="mb-4">
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '15px' }}>
+                      <BsPlayCircle style={{ color: '#c770f0', fontSize: '1.5rem', marginRight: '10px' }} />
+                      <h3 style={{ color: '#c770f0', margin: 0, fontSize: '1.2rem' }}>
+                        FluentU
+                      </h3>
+                    </div>
+                    <p style={{ 
+                      color: 'white',
+                      fontSize: '1.1rem',
+                      lineHeight: '1.8',
+                      opacity: 0.8,
+                      maxWidth: '800px',
+                      margin: '0 auto'
+                    }}>
+                      FluentU's interactive subtitles in real-world videos inspired AniLingo's clickable phrases feature, 
+                      allowing users to learn language in authentic contexts through anime content.
+                    </p>
+                  </div>
+
+                  <div className="mb-4">
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '15px' }}>
+                      <BsTranslate style={{ color: '#c770f0', fontSize: '1.5rem', marginRight: '10px' }} />
+                      <h3 style={{ color: '#c770f0', margin: 0, fontSize: '1.2rem' }}>
+                        LingQ
+                      </h3>
+                    </div>
+                    <p style={{ 
+                      color: 'white',
+                      fontSize: '1.1rem',
+                      lineHeight: '1.8',
+                      opacity: 0.8,
+                      maxWidth: '800px',
+                      margin: '0 auto'
+                    }}>
+                      LingQ's interactive transcripts influenced our phrase breakdown panel and personalized "phrase library" 
+                      feature, enhancing the learning experience through detailed analysis and organization.
+                    </p>
+                  </div>
+
+                  <div className="mb-4">
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '15px' }}>
+                      <BsCollection style={{ color: '#c770f0', fontSize: '1.5rem', marginRight: '10px' }} />
+                      <h3 style={{ color: '#c770f0', margin: 0, fontSize: '1.2rem' }}>
+                        Quizlet
+                      </h3>
+                    </div>
+                    <p style={{ 
+                      color: 'white',
+                      fontSize: '1.1rem',
+                      lineHeight: '1.8',
+                      opacity: 0.8,
+                      maxWidth: '800px',
+                      margin: '0 auto'
+                    }}>
+                      Quizlet's simplified flashcard interface inspired our "quick quiz" feature, implementing spaced 
+                      repetition for effective phrase retention and reinforcement learning.
                     </p>
                   </div>
                 </div>
@@ -472,6 +572,121 @@ function AnilingoProject() {
                 </div>
               </motion.div>
 
+              {/* Sketches Section */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.8 }}
+                className="sketches-section mb-5"
+                style={{
+                  background: 'rgba(15, 22, 36, 0.8)',
+                  borderRadius: '15px',
+                  padding: '30px',
+                  backdropFilter: 'blur(4px)',
+                  border: '1px solid rgba(199, 112, 240, 0.2)'
+                }}
+              >
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '30px' }}>
+                  <FaPencilAlt style={{ color: '#c770f0', fontSize: '2.5rem', marginRight: '15px' }} />
+                  <h2 className="project-heading" style={{ 
+                    textAlign: 'center',
+                    margin: 0,
+                    color: 'white'
+                  }}>
+                    Design <span style={{ color: '#c770f0' }}>Sketches</span>
+                  </h2>
+                  <FaPencilAlt style={{ color: '#c770f0', fontSize: '2.5rem', marginLeft: '15px' }} />
+                </div>
+
+                <p style={{ 
+                  color: 'white',
+                  fontSize: '1.1rem',
+                  lineHeight: '1.8',
+                  opacity: 0.8,
+                  marginBottom: '30px'
+                }}>
+                  To address our users' needs and pain points, we created detailed sketches for each feature. These early visuals 
+                  helped us define the layout, screen transitions, and interaction logic before moving into high-fidelity prototypes.
+                </p>
+
+                <div className="sketch-descriptions">
+                  <div className="mb-4">
+                    <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>Interactive Anime Clips</h3>
+                    <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8 }}>
+                      Our sketches mapped out the video player interface with interactive elements, showing how users would 
+                      engage with phrases, access translations, and control playback speed. We emphasized clear visual 
+                      hierarchy and intuitive controls.
+                    </p>
+                    <div className="mt-4">
+                      <img 
+                        src={require("../../Assets/images/duolingo-sketch-1.png")}
+                        alt="Interactive Anime Clips Sketch"
+                        style={{
+                          width: '50%',
+                          height: 'auto',
+                          borderRadius: '10px',
+                          border: '1px solid rgba(199, 112, 240, 0.3)',
+                          marginBottom: '30px'
+                        }}
+                      />
+                    </div>
+                  </div>
+
+                  <div className="mb-4">
+                    <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>Contextual Learning Tools</h3>
+                    <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8 }}>
+                      We designed the phrase breakdown panel with clear sections for grammar explanations, cultural context, 
+                      and usage examples. The sketch includes space for character profiles and formality indicators.
+                    </p>
+                    <div className="mt-4">
+                      <img 
+                        src={require("../../Assets/images/duolingo-sketch-2.png")}
+                        alt="Contextual Learning Tools Sketch"
+                        style={{
+                          width: '50%',
+                          height: 'auto',
+                          borderRadius: '10px',
+                          border: '1px solid rgba(199, 112, 240, 0.3)',
+                          marginBottom: '30px'
+                        }}
+                      />
+                    </div>
+                  </div>
+
+                  <div className="mb-4">
+                    <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>Progress Tracking System</h3>
+                    <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8 }}>
+                      The sketch outlines the Pokédex-style collection interface, showing how users would track their progress, 
+                      view achievements, and access personalized review schedules. We focused on making the gamification 
+                      elements clear and motivating.
+                    </p>
+                    <div className="mt-4">
+                      <img 
+                        src={require("../../Assets/images/duolingo-sketch-3.png")}
+                        alt="Progress Tracking System Sketch"
+                        style={{
+                          width: '50%',
+                          height: 'auto',
+                          borderRadius: '10px',
+                          border: '1px solid rgba(199, 112, 240, 0.3)',
+                          marginBottom: '30px'
+                        }}
+                      />
+                    </div>
+                  </div>
+
+                  <p style={{ 
+                    color: 'white', 
+                    fontSize: '1.1rem', 
+                    opacity: 0.8,
+                    fontStyle: 'italic',
+                    marginTop: '30px'
+                  }}>
+                    These sketches ensured that our feature ideas translated into intuitive, usable interfaces right from the start.
+                  </p>
+                </div>
+              </motion.div>
+
               {/* Prototype Showcase Section */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -630,6 +845,125 @@ function AnilingoProject() {
                   After implementing our core features, we conducted a second round of testing with our original participants
                   to validate our solutions and gather final feedback.
                 </p>
+
+                <div className="user-testing-videos mb-5">
+                  <h3 style={{ color: '#c770f0', marginBottom: '20px', textAlign: 'center' }}>User Testing Sessions</h3>
+                  <Row className="video-row">
+                    <Col md={4} className="mb-4">
+                      <div className="video-container" style={{ 
+                        position: 'relative',
+                        paddingBottom: '56.25%',
+                        height: 0,
+                        overflow: 'hidden',
+                        borderRadius: '10px',
+                        border: '1px solid rgba(199, 112, 240, 0.3)'
+                      }}>
+                        <iframe
+                          src="https://gtvault-my.sharepoint.com/personal/dsingh93_gatech_edu/_layouts/15/embed.aspx?UniqueId=731290b4-6c84-46e1-a54b-393fe9d8ede4&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create"
+                          style={{
+                            position: 'absolute',
+                            top: 0,
+                            left: 0,
+                            width: '100%',
+                            height: '100%',
+                            border: 'none'
+                          }}
+                          title="Kerrick's Final Test"
+                          frameBorder="0"
+                          scrolling="no"
+                          allowFullScreen
+                        />
+                      </div>
+                      <div style={{
+                        background: 'rgba(15, 22, 36, 0.6)',
+                        padding: '15px',
+                        borderRadius: '10px',
+                        marginTop: '15px',
+                        border: '1px solid rgba(199, 112, 240, 0.2)'
+                      }}>
+                        <h4 style={{ color: '#c770f0', marginBottom: '10px' }}>Kerrick's Insights</h4>
+                        <p style={{ color: 'white', fontSize: '1rem', opacity: 0.8 }}>
+                          Praised the slow-motion feature for complex phrases and suggested adding more intermediate-level content.
+                          Particularly enjoyed the formality indicators and cultural context explanations.
+                        </p>
+                      </div>
+                    </Col>
+                    <Col md={4} className="mb-4">
+                      <div className="video-container" style={{ 
+                        position: 'relative',
+                        paddingBottom: '56.25%',
+                        height: 0,
+                        overflow: 'hidden',
+                        borderRadius: '10px',
+                        border: '1px solid rgba(199, 112, 240, 0.3)'
+                      }}>
+                        <iframe
+                          src="https://www.youtube.com/embed/oWXszyd7-bI"
+                          style={{
+                            position: 'absolute',
+                            top: 0,
+                            left: 0,
+                            width: '100%',
+                            height: '100%',
+                            border: 'none'
+                          }}
+                          title="Ajay's Final Test"
+                          allowFullScreen
+                        />
+                      </div>
+                      <div style={{
+                        background: 'rgba(15, 22, 36, 0.6)',
+                        padding: '15px',
+                        borderRadius: '10px',
+                        marginTop: '15px',
+                        border: '1px solid rgba(199, 112, 240, 0.2)'
+                      }}>
+                        <h4 style={{ color: '#c770f0', marginBottom: '10px' }}>Ajay's Insights</h4>
+                        <p style={{ color: 'white', fontSize: '1rem', opacity: 0.8 }}>
+                          Found the achievement system motivating and recommended expanding the character personality profiles.
+                          Appreciated the spaced repetition implementation for phrase review.
+                        </p>
+                      </div>
+                    </Col>
+                    <Col md={4} className="mb-4">
+                      <div className="video-container" style={{ 
+                        position: 'relative',
+                        paddingBottom: '56.25%',
+                        height: 0,
+                        overflow: 'hidden',
+                        borderRadius: '10px',
+                        border: '1px solid rgba(199, 112, 240, 0.3)'
+                      }}>
+                        <iframe
+                          src="https://www.youtube.com/embed/Ewlex-ZomlU"
+                          style={{
+                            position: 'absolute',
+                            top: 0,
+                            left: 0,
+                            width: '100%',
+                            height: '100%',
+                            border: 'none'
+                          }}
+                          title="Amit's Final Test"
+                          allowFullScreen
+                        />
+                      </div>
+                      <div style={{
+                        background: 'rgba(15, 22, 36, 0.6)',
+                        padding: '15px',
+                        borderRadius: '10px',
+                        marginTop: '15px',
+                        border: '1px solid rgba(199, 112, 240, 0.2)'
+                      }}>
+                        <h4 style={{ color: '#c770f0', marginBottom: '10px' }}>Amit's Insights</h4>
+                        <p style={{ color: 'white', fontSize: '1rem', opacity: 0.8 }}>
+                          Highlighted the effectiveness of the cultural notes and romaji support for beginners.
+                          Suggested adding more varied anime genres for diverse learning contexts.
+                        </p>
+                      </div>
+                    </Col>
+                  </Row>
+                </div>
 
                 <div className="testing-results" style={{ marginBottom: '30px' }}>
                   <h3 style={{ color: '#c770f0', marginBottom: '20px', textAlign: 'center' }}>Key Findings & Improvements</h3>
