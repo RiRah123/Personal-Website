@@ -16,7 +16,7 @@
 </p>
 
 This repository serves as the main codebase for my personal website. Originally, I made this website as part of a class assignment in my Junior year of College. However, I still constantly update and improve upon the site to this very day. If you can would like to see the live site, then please visit:
-[http://rian-rahman.com](https://github.com/RiRah123/Personal-Website)
+[https://rirah123.github.io/Personal-Website/](https://rirah123.github.io/Personal-Website/)
 
 ## About the Website
 
