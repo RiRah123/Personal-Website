@@ -14,20 +14,20 @@ function EducationalTechnology() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0, transition: { duration: 0.4 } }}
     >
-      <Container fluid className="project-section">
+      <Container fluid className="project-section" style={{ minHeight: '100vh', paddingBottom: '5rem' }}>
         <Container>
           <Fade left>
             <h1 className="project-heading">
               Educational <strong className="purple">Technology</strong> Portfolio
             </h1>
-            <p style={{ color: "white", marginBottom: "1rem" }}>
+            <p style={{ color: "white", marginBottom: "2rem" }}>
               Explore my work in <strong className="purple">educational technology</strong> and learning experience design:
             </p>
 
             <Nav
               variant="pills"
               className="justify-content-center"
-              style={{ marginBottom: "1.5rem" }}
+              style={{ marginBottom: "2.5rem" }}
               onSelect={(selectedKey) => setActiveProject(selectedKey)}
             >
               <Nav.Item>
@@ -62,8 +62,8 @@ function EducationalTechnology() {
               </Nav.Item>
             </Nav>
 
-            <Row style={{ justifyContent: "center" }}>
-              <Col md={12}>
+            <Row style={{ justifyContent: "center", marginTop: "2rem" }}>
+              <Col md={12} style={{ overflow: "visible" }}>
                 {activeProject === "duolingo" && <DuolingoRedesign />}
                 {activeProject === "anilingo" && <AnilingoProject />}
               </Col>
