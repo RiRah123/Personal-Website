@@ -953,6 +953,7 @@ const DuolingoRedesign = () => {
                 </div>
               </motion.div>
 
+              {/* Figma Prototype Section */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -996,56 +997,26 @@ const DuolingoRedesign = () => {
                   overflow: 'hidden',
                   borderRadius: '15px',
                   border: '1px solid rgba(199, 112, 240, 0.2)',
-                  background: 'rgba(15, 22, 36, 0.8)',
-                  pointerEvents: 'none'
+                  background: 'rgba(15, 22, 36, 0.8)'
                 }}>
-                  <div 
-                    style={{
-                      position: 'absolute',
-                      top: 0,
-                      left: 0,
-                      width: '100%',
-                      height: '100%',
-                      display: 'flex',
-                      justifyContent: 'center',
-                      alignItems: 'center',
-                      background: 'rgba(15, 22, 36, 0.9)',
-                      cursor: 'pointer',
-                      zIndex: 2
-                    }}
-                    onClick={(e) => {
-                      e.currentTarget.style.display = 'none';
-                      e.currentTarget.nextElementSibling.style.pointerEvents = 'auto';
-                    }}
-                  >
-                    <div style={{
-                      color: '#c770f0',
-                      padding: '1rem 2rem',
-                      border: '2px solid #c770f0',
-                      borderRadius: '8px',
-                      fontSize: '1.1rem'
-                    }}>
-                      Click to Load Prototype
-                    </div>
-                  </div>
                   <iframe
-                    src="about:blank"
-                    data-src="https://www.figma.com/proto/j6HivR2IfnOgkMTiIjm9Pj/Duolingo-Improvement?node-id=3-2&p=f&t=rn47tdaYq4KUlneb-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A2"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fj6HivR2IfnOgkMTiIjm9Pj%2FDuolingo-Improvement%3Fnode-id%3D3-2%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D3%253A2"
                     style={{
                       position: 'absolute',
                       top: 0,
                       left: 0,
                       width: '100%',
                       height: '100%',
-                      border: 'none',
-                      pointerEvents: 'none'
+                      border: 'none'
                     }}
                     title="Figma Prototype"
+                    loading="lazy"
                     allowFullScreen
                   />
                 </div>
               </motion.div>
 
+              {/* Project Presentation Section */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -1089,51 +1060,20 @@ const DuolingoRedesign = () => {
                   overflow: 'hidden',
                   borderRadius: '15px',
                   border: '1px solid rgba(199, 112, 240, 0.2)',
-                  background: 'rgba(15, 22, 36, 0.8)',
-                  pointerEvents: 'none'
+                  background: 'rgba(15, 22, 36, 0.8)'
                 }}>
-                  <div 
-                    style={{
-                      position: 'absolute',
-                      top: 0,
-                      left: 0,
-                      width: '100%',
-                      height: '100%',
-                      display: 'flex',
-                      justifyContent: 'center',
-                      alignItems: 'center',
-                      background: 'rgba(15, 22, 36, 0.9)',
-                      cursor: 'pointer',
-                      zIndex: 2
-                    }}
-                    onClick={(e) => {
-                      e.currentTarget.style.display = 'none';
-                      e.currentTarget.nextElementSibling.style.pointerEvents = 'auto';
-                    }}
-                  >
-                    <div style={{
-                      color: '#c770f0',
-                      padding: '1rem 2rem',
-                      border: '2px solid #c770f0',
-                      borderRadius: '8px',
-                      fontSize: '1.1rem'
-                    }}>
-                      Click to Load Presentation
-                    </div>
-                  </div>
                   <iframe
-                    src="about:blank"
-                    data-src="https://gtvault-my.sharepoint.com/:p:/g/personal/dsingh93_gatech_edu/EXbf5GXKatJJhDOHmmwoZTsBbR06zz5uwLbiLh78XutmMQ?e=X2C2et&nav=eyJzSWQiOjI1NiwiY0lkIjoxMDk4NTcyMjJ9"
+                    src="https://gtvault-my.sharepoint.com/:p:/g/personal/dsingh93_gatech_edu/EXbf5GXKatJJhDOHmmwoZTsBbR06zz5uwLbiLh78XutmMQ?e=X2C2et&amp;embed=true"
                     style={{
                       position: 'absolute',
                       top: 0,
                       left: 0,
                       width: '100%',
                       height: '100%',
-                      border: 'none',
-                      pointerEvents: 'none'
+                      border: 'none'
                     }}
                     title="Project Presentation"
+                    loading="lazy"
                     allowFullScreen
                   />
                 </div>
