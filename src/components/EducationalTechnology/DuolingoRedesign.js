@@ -46,9 +46,8 @@ const DuolingoRedesign = () => {
                 textAlign: 'center',
                 opacity: 0.8
               }}>
-                This course project focused on addressing key limitations in Duolingo's current platform, 
-                specifically targeting the lack of cultural immersion, real-world conversation opportunities, 
-                and community engagement features that are crucial for effective language learning.
+                For this course project, I and my groupmates looked into what was missing in Duolingo's current platform. We found that it lacks real cultural immersion, 
+                chances to practice conversations, and ways to connect with other learners. These are all things that can help someone when learning a new language.
               </p>
             </div>
 
@@ -82,7 +81,9 @@ const DuolingoRedesign = () => {
                 lineHeight: '1.8',
                 opacity: 0.8
               }}>
-                Current digital language learning tools like Duolingo often fall short in supporting learners from diverse linguistic and cultural backgrounds. While they offer gamified experiences, they lack real-world immersion, social connection, and adaptability for marginalized users. Our goal was to redesign Duolingo to bridge these gaps by introducing features that emphasize cultural relevance, peer interaction, and authentic communication opportunities. We focused specifically on improving learning experiences for students who face language barriers due to socioeconomic, racial, or geographic disparities.
+                Language learning apps like Duolingo often don't work well for everyone. While they make learning fun with games, they miss out on real-world practice, 
+                social connections, and helping people from different backgrounds. We wanted to fix this by adding features that focus on culture, connecting with others, 
+                and real conversations. Specefically our goal was to help students who face challenges because of their background or where they live.
               </p>
             </motion.div>
 
@@ -117,7 +118,7 @@ const DuolingoRedesign = () => {
                 opacity: 0.8,
                 marginBottom: '30px'
               }}>
-                Our redesign introduces three features grounded in learning science principles and feedback from real users:
+                We came up with three new features based on what real users told us and what we know about how people learn:
               </p>
               <div style={{ marginLeft: '0', textAlign: 'center' }}>
                 <div className="mb-4">
@@ -136,7 +137,8 @@ const DuolingoRedesign = () => {
                     margin: '0 auto',
                     textAlign: 'center'
                   }}>
-                    Inspired by Vygotsky's Social Constructivism, this feature enables users to engage in forums, language challenges, and peer-led minigames to support collaborative learning. It provides a space for mutual support and motivation, helping users co-construct knowledge with others.
+                    We took inspiration from how people learn together. The purpose of this feature is to let users join forums, take part in language challenges, and play learning games with others. 
+                    It is suppose to be a space where everyone can help each other learn and stay motivated.
                   </p>
                 </div>
 
@@ -156,7 +158,8 @@ const DuolingoRedesign = () => {
                     margin: '0 auto',
                     textAlign: 'center'
                   }}>
-                    Grounded in Situated and Distributed Cognition, this AR feature lets users point their camera at real-world objects and receive instant translations in their target language. It bridges classroom learning and real-life context, particularly for learners navigating new cultural environments.
+                    We wanted to built this AR feature to allow people to point their phone at things around them and get instant translations. It helps connect what they learn in the app with real life, 
+                    which is useful for people who are new to a place or culture.
                   </p>
                 </div>
 
@@ -176,7 +179,7 @@ const DuolingoRedesign = () => {
                     margin: '0 auto',
                     textAlign: 'center'
                   }}>
-                    Leveraging Sociocultural Theory and the Zone of Proximal Development, this feature connects learners with native speakers for real-time conversations, enabling immediate feedback, cultural exchange, and fluency growth.
+                    This feature helps people connect with native speakers for real conversations. It allows them to get immediate feedback, learn about their culture, and improve their speaking skills naturally.
                   </p>
                 </div>
               </div>
@@ -187,7 +190,8 @@ const DuolingoRedesign = () => {
                 opacity: 0.8,
                 marginTop: '20px'
               }}>
-                These interventions were tested through user studies and iterated across low-, mid-, and high-fidelity prototypes. Our approach aimed to support not just knowledge acquisition, but also inclusive and meaningful learning experiences for language minority users.
+                We tested these ideas with real users and kept improving them through different versions of our prototype. We wanted to make sure that the app not only helps people learn words and grammar, 
+                but it also creates a learning experience that works for everyone.
               </p>
             </motion.div>
 
@@ -223,7 +227,7 @@ const DuolingoRedesign = () => {
                 opacity: 0.8,
                 marginBottom: '30px'
               }}>
-                To better understand our target user, we created a detailed persona:
+                Here's what we thought our target user would look like:
               </p>
 
               <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '30px' }}>
@@ -247,11 +251,11 @@ const DuolingoRedesign = () => {
               }}>
                 <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>Maria Solis</h3>
                 <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8, lineHeight: '1.8' }}>
-                  A 21-year-old computer science student at Georgia Tech, fluent in English and Spanish, and a beginner in French. 
-                  She uses Duolingo to prepare for study abroad and connect with French-speaking friends. While she appreciates 
-                  gamified learning, Maria struggles with repetitive lessons, shallow grammar explanations, and lack of real-world 
-                  interaction. She wants a more structured way to track her progress and deeper opportunities for meaningful conversation.
-                  </p>
+                  Maria Solis is a 21-year-old computer science student at Georgia Tech. She's fluent in English and Spanish, and just starting to learn French. 
+                  She uses Duolingo for studying abroad and to chat with her French-speaking friends. While she likes gamfied learning, Maria finds the lessons 
+                  too repetitive, thinks the grammar explanations are too basic, and wishes there were more chances for real conversations. She's looking for better ways to track her progress 
+                  and have meaningful practice with the language.
+                </p>
                 </div>
               </motion.div>
 
@@ -287,17 +291,15 @@ const DuolingoRedesign = () => {
                 opacity: 0.8,
                 marginBottom: '30px'
               }}>
-                To address Maria's needs and pain points, we created detailed sketches for each feature. These early visuals 
-                helped us define the layout, screen transitions, and interaction logic before moving into high-fidelity prototypes.
+                We made some sketches for each feature to help us figure out how everything would work together. These early drawings will help us plan out the layout, 
+                how screens would connect.
               </p>
 
               <div className="sketch-descriptions">
                 <div className="mb-4">
                   <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>Community Hub</h3>
                   <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8 }}>
-                    Our sketches laid out how users would navigate between challenges, discussions, and leaderboards. 
-                    We emphasized clarity by visually separating each section and showing progression through language 
-                    levels and point systems.
+                    Our first sketch showed how users would move between challenges, discussions, and leaderboards.
                   </p>
                   <div className="mt-4">
                     <img 
@@ -317,9 +319,8 @@ const DuolingoRedesign = () => {
                 <div className="mb-4">
                   <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>AR Vocabulary Scanner</h3>
                   <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8 }}>
-                    We mapped a clear step-by-step flow: starting from language selection, granting camera permissions, 
-                    capturing an object, and showing translated vocabulary along with grammatical context. The sketch also 
-                    includes a way to switch languages or classify additional objects without restarting.
+                    We then mapped out a simple step-by-step process: pick your language, let the app use your camera, point at something, and see the translation with some grammar tips. 
+                    We also added ways to switch languages or scan more things without starting over.
                   </p>
                   <div className="mt-4">
                     <img 
@@ -339,9 +340,8 @@ const DuolingoRedesign = () => {
                 <div className="mb-4">
                   <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>Live Conversation Interface</h3>
                   <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8 }}>
-                    The sketch outlines the full tutor interaction—from choosing a language and proficiency level, 
-                    to selecting a tutor, joining a video call, and leaving feedback or notes. This helped us visualize 
-                    how to streamline transitions between call setup, interaction, and reflection.
+                    This sketch below shows the whole conversation flow. It starts from picking your language and skill level, to choosing a tutor, joining a video call, and giving feedback. 
+                    This helped us make sure everything went smoothly for a conversation.
                   </p>
                   <div className="mt-4">
                     <img 
@@ -365,7 +365,7 @@ const DuolingoRedesign = () => {
                   fontStyle: 'italic',
                   marginTop: '30px'
                 }}>
-                  These sketches ensured that our feature ideas translated into intuitive, usable interfaces right from the start.
+                  These sketches helped us make sure our ideas would work well in real life, right from the start.
                 </p>
               </div>
             </motion.div>
@@ -402,11 +402,9 @@ const DuolingoRedesign = () => {
                 opacity: 0.8,
                 marginBottom: '30px'
               }}>
-                Next, we created an affinity diagram that grouped common frustrations and improvement ideas. 
-                Key problems included lack of in-depth grammar instruction, repetitive lessons, and minimal 
-                real-world interaction. These were mapped to actionable feature ideas—such as AR-based vocabulary 
-                learning, live native speaker conversations, and social engagement tools—many of which were also 
-                directly suggested by users.
+                Next, we created an affinity diagram beucase it allowed us to group similar problems and ideas for improvement. The main issues we found were that there was not enough grammar help, 
+                lessons that felt too repetitive, and that there was not enough real-world practice. We matched these problems with possible solutions. We thought about adding AR for vocabulary, 
+                adding live conversations with native speakers, and creating social learning tools. Many of these ideas came straight from our users.
               </p>
 
               <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '30px' }}>
@@ -455,9 +453,7 @@ const DuolingoRedesign = () => {
                 opacity: 0.8,
                 marginBottom: '30px'
               }}>
-                Our redesign journey began with a basic prototype built in PowerPoint, allowing us to quickly 
-                visualize our ideas before committing to a full design tool. From there, we transitioned to 
-                Figma to create a more interactive, high-fidelity experience based on user feedback.
+                We started with a simple prototype in PowerPoint. Then we moved to Figma to create a more interactive version based on what our users told us.
               </p>
 
               <div className="research-phases">
@@ -620,7 +616,7 @@ const DuolingoRedesign = () => {
                     opacity: 0.8,
                     marginBottom: '20px'
                   }}>
-                    We created a clickable prototype in Figma and conducted testing to gather feedback on usability and design clarity:
+                    We created a clickable prototype in Figma and conducted testing to gather feedback on usability:
                   </p>
                   <Row className="video-row">
                     <Col md={4} className="mb-4">
@@ -764,7 +760,7 @@ const DuolingoRedesign = () => {
                     opacity: 0.8,
                     marginBottom: '20px'
                   }}>
-                    We refined the prototype based on earlier feedback and conducted a second round of user testing on the high-fidelity version:
+                    We refined the prototype based on earlier feedback and conducted another round of user testing on the high-fidelity version:
                   </p>
                   <Row className="video-row">
                     <Col md={4} className="mb-4">
@@ -931,35 +927,33 @@ const DuolingoRedesign = () => {
                 opacity: 0.8,
                 marginBottom: '30px'
               }}>
-                Each of our redesigned features was grounded in well-established learning theories:
+                Each of our new features is based on how people learn:
               </p>
 
               <div style={{ marginLeft: '20px' }}>
                 <div className="mb-4">
                   <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>Social Learning Community Hub</h3>
                   <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8, lineHeight: '1.8' }}>
-                    This feature draws from Social Constructivism and Social Learning Theory, emphasizing peer-based learning, shared challenges, and community support. 
-                    By fostering interaction through discussion forums and collaborative minigames, we enabled learners—especially those from marginalized backgrounds—to 
-                    co-construct knowledge in a supportive environment. The design aligns with motivation theory as well, using leaderboards and peer encouragement to 
-                    sustain learning.
+                    This feature is all about learning together. It uses the idea that we learn better when we work with others. Through forums and group games, 
+                    we created a space where everyone can help each other learn. This feature is applicable to those who might feel left out. The design also uses motivation theory, 
+                    with leaderboards and peer support to keep people engaged.
                   </p>
                 </div>
 
                 <div className="mb-4">
                   <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>Augmented Reality Vocabulary Scanner</h3>
                   <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8, lineHeight: '1.8' }}>
-                    Our AR feature was inspired by Situated Cognition and Embodied Learning, ensuring that vocabulary acquisition happens in real-world contexts. 
-                    Learners build connections between the objects they encounter and the language they're learning. We also applied Distributed Cognition by 
-                    integrating camera, text, and interaction in a seamless interface, treating the environment as part of the cognitive system.
+                    Our AR feature is based on the idea that we learn better when we connect what we're learning to real life. It helps users link the objects they see 
+                    every day with the language they're learning. We made the interface work smoothly with the camera, text, and interactions all working together.
                   </p>
                 </div>
 
                 <div className="mb-4">
                   <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>Live Conversation with Native Speakers</h3>
                   <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8, lineHeight: '1.8' }}>
-                    This feature leverages Vygotsky's Zone of Proximal Development and Sociocultural Theory. Real-time, authentic dialogue allows learners to 
-                    stretch their capabilities with support, building fluency through practice. Prompts and personalized tutor recommendations further enable 
-                    learners to apply their language skills in meaningful ways, bridging academic learning with real-life communication.
+                    This feature uses the idea that we learn best when we're pushed a bit beyond our comfort zone, but with support. Real conversations with native speakers 
+                    help learners improve their skills naturally. The prompts and tutor recommendations help users practice in meaningful ways, connecting classroom learning 
+                    with real-world communication.
                   </p>
                 </div>
               </div>
@@ -999,7 +993,7 @@ const DuolingoRedesign = () => {
                 marginBottom: '30px',
                 textAlign: 'center'
               }}>
-                Explore our interactive prototype below to see how we've implemented the new features and improvements.
+                Check out our interactive prototype below to see how we've put all these new features together.
               </p>
 
               <div style={{ 
@@ -1084,7 +1078,7 @@ const DuolingoRedesign = () => {
                 marginBottom: '30px',
                 textAlign: 'center'
               }}>
-                View our complete project presentation detailing our research, design process, and final outcomes.
+                Take a look at our full presentation below summarizing our project.
               </p>
 
               <div className="iframe-container" style={{ 
@@ -1168,9 +1162,8 @@ const DuolingoRedesign = () => {
                 lineHeight: '1.8',
                 opacity: 0.8
               }}>
-                Working on this project taught me the importance of designing educational tools not just for usability or engagement—but for equity, inclusion, 
-                and real-world impact. At every step, from early sketches to our final Figma prototype, I learned how critical it is to center the voices of 
-                actual users, especially those who are often underserved by existing platforms.
+                Working on this project showed me that good educational tools need to do more than just work well or be fun - they need to be fair, inclusive, and actually help people. 
+                From our first sketches to the final prototype, I learned how important it is to listen to real users, especially those who often get left behind by existing apps.
               </p>
 
               <p style={{ 
@@ -1180,8 +1173,8 @@ const DuolingoRedesign = () => {
                 opacity: 0.8,
                 marginTop: '20px'
               }}>
-                I also gained a much deeper understanding of how learning science theories can directly inform interface design. Features like AR scanning or 
-                live conversations aren't just "cool" ideas—they're effective because they're backed by how people actually learn best.
+                I also got a much better understanding of how learning theories can guide design. Features like AR scanning or live conversations aren't just cool tech. They are able to work because 
+                they're based on how people actually learn best.
               </p>
 
               <p style={{ 
@@ -1191,8 +1184,7 @@ const DuolingoRedesign = () => {
                 opacity: 0.8,
                 marginTop: '20px'
               }}>
-                Above all, this project made me realize that great edtech isn't just about building tools—it's about empowering learners to see themselves as 
-                capable, valued participants in their own learning journey.
+                Finally, this project taught me that great educational technology isn't just about building tools. It's about helping learners feel capable and valued in their learning journey.
               </p>
             </motion.div>
           </motion.div>
