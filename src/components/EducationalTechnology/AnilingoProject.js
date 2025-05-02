@@ -942,7 +942,7 @@ function AnilingoProject() {
                       border: '1px solid rgba(199, 112, 240, 0.3)'
                     }}>
                       <iframe
-                        src="https://www.youtube.com/embed/oWXszyd7-bI"
+                        src="https://www.youtube.com/embed/SobMcTjB8Lk"
                         style={{
                           position: 'absolute',
                           top: 0,
@@ -979,7 +979,7 @@ function AnilingoProject() {
                       border: '1px solid rgba(199, 112, 240, 0.3)'
                     }}>
                       <iframe
-                        src="https://www.youtube.com/embed/Ewlex-ZomlU"
+                        src="https://www.youtube.com/embed/2r3htAFzKFM"
                         style={{
                           position: 'absolute',
                           top: 0,
