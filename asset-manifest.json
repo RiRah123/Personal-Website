@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Personal-Website/static/css/main.3d01079a.css",
-    "main.js": "/Personal-Website/static/js/main.0745b11d.js",
+    "main.js": "/Personal-Website/static/js/main.d78e16c9.js",
     "static/js/415.4d6acbeb.chunk.js": "/Personal-Website/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Personal-Website/static/js/787.1ed0c42c.chunk.js",
     "static/media/aframe-3d-replica.gif": "/Personal-Website/static/media/aframe-3d-replica.e989c9aa73bd549a49f1.gif",
@@ -23,10 +23,15 @@
     "static/media/anilingo-initial-prototype-4.png": "/Personal-Website/static/media/anilingo-initial-prototype-4.1ba4060f5ec4f2188607.png",
     "static/media/mfChess.gif": "/Personal-Website/static/media/mfChess.4a4227b2c80af63300c3.gif",
     "static/media/duolingo-sketch-3.png": "/Personal-Website/static/media/duolingo-sketch-3.ab226a244f43079414e7.png",
+    "static/media/anilingo-sketch-2.png": "/Personal-Website/static/media/anilingo-sketch-2.e191c8e737656c0cb5dc.png",
+    "static/media/anilingo-sketch-4.png": "/Personal-Website/static/media/anilingo-sketch-4.eab2150ea115a748ce45.png",
+    "static/media/anilingo-sketch-5.png": "/Personal-Website/static/media/anilingo-sketch-5.c388d4bd03643b8318d8.png",
     "static/media/GoldenSignature.otf": "/Personal-Website/static/media/GoldenSignature.0117d2c54e5b58d51ae3.otf",
     "static/media/anilingo-initial-prototype-1.png": "/Personal-Website/static/media/anilingo-initial-prototype-1.3ec49681d4ae1308dd72.png",
     "static/media/unix-terminal-shell.gif": "/Personal-Website/static/media/unix-terminal-shell.a59bada72110e05e9f31.gif",
+    "static/media/anilingo-sketch-1.png": "/Personal-Website/static/media/anilingo-sketch-1.4709335613b5da823a3f.png",
     "static/media/lingQ.png": "/Personal-Website/static/media/lingQ.5d3f637ab8249e4d4755.png",
+    "static/media/anilingo-sketch-3.png": "/Personal-Website/static/media/anilingo-sketch-3.803250f7fb1a66ffd4be.png",
     "static/media/Rian-Rahman-Resume-1.pdf": "/Personal-Website/static/media/Rian-Rahman-Resume-1.9f967bb65e26de6bcf7e.pdf",
     "static/media/home-main.svg": "/Personal-Website/static/media/home-main.9a54a1ed8c56da727dc31430c68a08a7.svg",
     "static/media/fluentU.jpg": "/Personal-Website/static/media/fluentU.15b2f5ef446ad679251e.jpg",
@@ -43,12 +48,12 @@
     "static/media/java.svg": "/Personal-Website/static/media/java.1701b588e57240043c79deaad59fa2b1.svg",
     "index.html": "/Personal-Website/index.html",
     "main.3d01079a.css.map": "/Personal-Website/static/css/main.3d01079a.css.map",
-    "main.0745b11d.js.map": "/Personal-Website/static/js/main.0745b11d.js.map",
+    "main.d78e16c9.js.map": "/Personal-Website/static/js/main.d78e16c9.js.map",
     "415.4d6acbeb.chunk.js.map": "/Personal-Website/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Personal-Website/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d01079a.css",
-    "static/js/main.0745b11d.js"
+    "static/js/main.d78e16c9.js"
   ]
 }
