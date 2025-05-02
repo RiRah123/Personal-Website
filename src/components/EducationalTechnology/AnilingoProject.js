@@ -647,17 +647,16 @@ function AnilingoProject() {
 
               <div className="sketch-descriptions">
                 <div className="mb-4">
-                  <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>Interactive Anime Clips</h3>
+                  <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>Login Screen</h3>
                   <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8 }}>
-                    I sketched out how the video player would work, showing where you can click on phrases, see translations, 
-                    and control the video speed. I made sure everything was easy to find and use.
+                    The login page is simple and clean. You just enter your email and password, and there's a checkbox to keep you logged in. The Anilingo logo is at the top to welcome you.
                   </p>
                   <div className="mt-4">
                     <img 
-                      src={require("../../Assets/images/duolingo-sketch-1.png")}
-                      alt="Interactive Anime Clips Sketch"
+                      src={require("../../Assets/images/anilingo-sketch-1.png")}
+                      alt="Anilingo Login Screen Sketch"
                       style={{
-                        width: '50%',
+                        width: '40%',
                         height: 'auto',
                         borderRadius: '10px',
                         border: '1px solid rgba(199, 112, 240, 0.3)',
@@ -668,17 +667,16 @@ function AnilingoProject() {
                 </div>
 
                 <div className="mb-4">
-                  <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>Contextual Learning Tools</h3>
+                  <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>Main Dashboard</h3>
                   <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8 }}>
-                    I designed a panel that breaks down each phrase, showing grammar tips, cultural info, and examples. 
-                    I also added space for character info and how formal each phrase is.
+                    The dashboard shows your main lessons at the top, with cards for different anime. You can see categories like quizzes and the social hub, and there's a section for your learning progress and badges.
                   </p>
                   <div className="mt-4">
                     <img 
-                      src={require("../../Assets/images/duolingo-sketch-2.png")}
-                      alt="Contextual Learning Tools Sketch"
+                      src={require("../../Assets/images/anilingo-sketch-2.png")}
+                      alt="Anilingo Dashboard Sketch"
                       style={{
-                        width: '50%',
+                        width: '40%',
                         height: 'auto',
                         borderRadius: '10px',
                         border: '1px solid rgba(199, 112, 240, 0.3)',
@@ -689,17 +687,56 @@ function AnilingoProject() {
                 </div>
 
                 <div className="mb-4">
-                  <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>Progress Tracking System</h3>
+                  <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>Explore & Search</h3>
                   <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8 }}>
-                    I drew up a collection screen that works like a Pokédex, showing your progress, achievements, and 
-                    when to review phrases. I made sure the game-like features were fun and motivating.
+                    Here you can search for phrases, pick from popular categories, and filter lessons by type or level. There are also recommendations at the bottom to help you find what to learn next.
                   </p>
                   <div className="mt-4">
                     <img 
-                      src={require("../../Assets/images/duolingo-sketch-3.png")}
-                      alt="Progress Tracking System Sketch"
+                      src={require("../../Assets/images/anilingo-sketch-3.png")}
+                      alt="Anilingo Explore Search Sketch"
                       style={{
-                        width: '50%',
+                        width: '40%',
+                        height: 'auto',
+                        borderRadius: '10px',
+                        border: '1px solid rgba(199, 112, 240, 0.3)',
+                        marginBottom: '30px'
+                      }}
+                    />
+                  </div>
+                </div>
+
+                <div className="mb-4">
+                  <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>Lesson Detail</h3>
+                  <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8 }}>
+                    When you open a lesson, you see a big video at the top and a simple explanation of the grammar or phrase below. There's a start button and some icons for extra actions.
+                  </p>
+                  <div className="mt-4">
+                    <img 
+                      src={require("../../Assets/images/anilingo-sketch-4.png")}
+                      alt="Anilingo Lesson Detail Sketch"
+                      style={{
+                        width: '40%',
+                        height: 'auto',
+                        borderRadius: '10px',
+                        border: '1px solid rgba(199, 112, 240, 0.3)',
+                        marginBottom: '30px'
+                      }}
+                    />
+                  </div>
+                </div>
+
+                <div className="mb-4">
+                  <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>Quiz & Progress</h3>
+                  <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8 }}>
+                    The quiz page lets you answer questions while watching a video. You can see your progress, get daily alerts, and check out the badges you've earned.
+                  </p>
+                  <div className="mt-4">
+                    <img 
+                      src={require("../../Assets/images/anilingo-sketch-5.png")}
+                      alt="Anilingo Quiz Progress Sketch"
+                      style={{
+                        width: '40%',
                         height: 'auto',
                         borderRadius: '10px',
                         border: '1px solid rgba(199, 112, 240, 0.3)',
@@ -716,7 +753,7 @@ function AnilingoProject() {
                   fontStyle: 'italic',
                   marginTop: '30px'
                 }}>
-                  These sketches helped me make sure the app would be easy and fun to use from the start.
+                  These sketches helped me figure out the layout and flow before building the real thing.
                 </p>
               </div>
             </motion.div>
