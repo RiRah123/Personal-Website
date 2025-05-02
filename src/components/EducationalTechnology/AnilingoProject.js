@@ -916,8 +916,8 @@ function AnilingoProject() {
                     }}>
                       <h4 style={{ color: '#c770f0', marginBottom: '10px' }}>Kerrick's Insights</h4>
                       <p style={{ color: 'white', fontSize: '1rem', opacity: 0.8 }}>
-                        Loved being able to slow down tricky phrases and wanted more intermediate content. Really liked 
-                        the formality tips and cultural notes.
+                        Wanted the tabs to be clearer - they should only look selected when you actually click them. Also suggested 
+                        adding a quick copyright notice when watching anime clips, just to keep everything above board.
                       </p>
                     </div>
                   </Col>
@@ -953,8 +953,8 @@ function AnilingoProject() {
                     }}>
                       <h4 style={{ color: '#c770f0', marginBottom: '10px' }}>Ajay's Insights</h4>
                       <p style={{ color: 'white', fontSize: '1rem', opacity: 0.8 }}>
-                        The achievement system was super motivating! Wanted more character profiles and liked how the 
-                        spaced repetition helped remember phrases.
+                        Said he'd actually use this app himself! Wanted to be able to make his own flashcards, and thought 
+                        the app had everything you need to learn Japanese properly.
                       </p>
                     </div>
                   </Col>
@@ -990,8 +990,8 @@ function AnilingoProject() {
                     }}>
                       <h4 style={{ color: '#c770f0', marginBottom: '10px' }}>Amit's Insights</h4>
                       <p style={{ color: 'white', fontSize: '1rem', opacity: 0.8 }}>
-                        The cultural notes and romaji support were really helpful for beginners. Suggested adding more 
-                        different types of anime for variety.
+                        Really wanted to try out the full app! Suggested showing a quiz summary with your score and which 
+                        questions you got right or wrong. Also thought a "Japanese Only" mode would be cool for the social hub.
                       </p>
                     </div>
                   </Col>
@@ -1010,9 +1010,9 @@ function AnilingoProject() {
                 }}>
                   <h4 style={{ color: '#c770f0', marginBottom: '15px' }}>Interactive Anime Clips</h4>
                   <ul style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8, listStyle: 'none', padding: 0 }}>
-                    <li style={{ marginBottom: '10px' }}>✓ Added slow-motion for tricky phrases</li>
-                    <li style={{ marginBottom: '10px' }}>✓ Made it easy to switch between romaji and hiragana</li>
-                    <li>✓ Added more cultural tips based on feedback</li>
+                    <li style={{ marginBottom: '10px' }}>✓ Fixed the tab selection UI to be clearer</li>
+                    <li style={{ marginBottom: '10px' }}>✓ Added a copyright notice for anime clips</li>
+                    <li>✓ Made the video player controls more intuitive</li>
                   </ul>
                 </div>
 
@@ -1023,11 +1023,11 @@ function AnilingoProject() {
                   border: '1px solid rgba(199, 112, 240, 0.2)',
                   marginBottom: '20px'
                 }}>
-                  <h4 style={{ color: '#c770f0', marginBottom: '15px' }}>Contextual Learning Tools</h4>
+                  <h4 style={{ color: '#c770f0', marginBottom: '15px' }}>Learning Features</h4>
                   <ul style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8, listStyle: 'none', padding: 0 }}>
-                    <li style={{ marginBottom: '10px' }}>✓ Added formality level tips for each phrase</li>
-                    <li style={{ marginBottom: '10px' }}>✓ Added character profiles for context</li>
-                    <li>✓ Added more cultural notes</li>
+                    <li style={{ marginBottom: '10px' }}>✓ Added custom flashcard creation</li>
+                    <li style={{ marginBottom: '10px' }}>✓ Added quiz summaries with score breakdown</li>
+                    <li>✓ Added a Japanese-only mode for the social hub</li>
                   </ul>
                 </div>
 
@@ -1037,11 +1037,11 @@ function AnilingoProject() {
                   borderRadius: '10px',
                   border: '1px solid rgba(199, 112, 240, 0.2)'
                 }}>
-                  <h4 style={{ color: '#c770f0', marginBottom: '15px' }}>Progress Tracking System</h4>
+                  <h4 style={{ color: '#c770f0', marginBottom: '15px' }}>User Experience</h4>
                   <ul style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8, listStyle: 'none', padding: 0 }}>
-                    <li style={{ marginBottom: '10px' }}>✓ Added daily streaks and reminders</li>
-                    <li style={{ marginBottom: '10px' }}>✓ Added achievement badges</li>
-                    <li>✓ Made review schedules based on how you're doing</li>
+                    <li style={{ marginBottom: '10px' }}>✓ Made the interface more intuitive</li>
+                    <li style={{ marginBottom: '10px' }}>✓ Added more personalization options</li>
+                    <li>✓ Improved the overall learning flow</li>
                   </ul>
                 </div>
               </div>
@@ -1054,7 +1054,7 @@ function AnilingoProject() {
                 fontStyle: 'italic',
                 textAlign: 'center'
               }}>
-                The final tests went great! Users said they were more engaged and remembered phrases better than with 
+                Overall, users said they were more engaged and remembered phrases better than with 
                 traditional methods. Mixing anime with structured learning really helped them stay motivated.
               </p>
             </motion.div>
@@ -1093,7 +1093,7 @@ function AnilingoProject() {
                 marginBottom: '30px',
                 textAlign: 'center'
               }}>
-                Try out our final prototype below! I've added all the feedback from users to make it even better.
+                Try out my final prototype below! I've added all the feedback from users to make it even better.
               </p>
 
               <div style={{ 
