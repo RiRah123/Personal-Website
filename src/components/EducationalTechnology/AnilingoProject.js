@@ -33,8 +33,8 @@ function AnilingoProject() {
                 textAlign: 'center',
                 opacity: 0.8
               }}>
-                An innovative web application designed to teach everyday Japanese phrases through engaging anime clips, 
-                bridging the gap between passive anime watching and active language acquisition.
+                A fun web app that helps you learn Japanese phrases through your favorite anime clips. 
+                It is suppsoed to turn your anime watching time into actual learning time.
               </p>
             </div>
 
@@ -69,11 +69,8 @@ function AnilingoProject() {
                 lineHeight: '1.8',
                 opacity: 0.8
               }}>
-                Traditional Japanese learning methods can be overwhelming and disconnected from learners' interests. 
-                Anilingo aims to transform this experience by leveraging anime content that learners already enjoy, 
-                creating an engaging bridge between entertainment and language acquisition. Our target audience includes 
-                15-30 year olds who are interested in learning Japanese and have basic exposure to anime but lack the 
-                tools to effectively learn from it.
+                Learning Japanese can be tough and boring with traditional methods. That's why I made Anilingo. The goal is to take the anime you already love watching and turns it into a learning tool. It's perfect for people 
+                between 15 and 30 who are into anime and want to learn Japanese but don't know where to start.
               </p>
             </motion.div>
 
@@ -118,7 +115,7 @@ function AnilingoProject() {
                     maxWidth: '800px',
                     margin: '0 auto'
                   }}>
-                    Identify and understand 15-20 high-frequency Japanese phrases commonly used in anime and everyday conversation.
+                    Learn to spot and understand 15 to 20 common Japanese phrases you'll hear in anime and real life.
                   </p>
                 </div>
 
@@ -137,7 +134,7 @@ function AnilingoProject() {
                     maxWidth: '800px',
                     margin: '0 auto'
                   }}>
-                    Apply phrases in the correct context, distinguishing between casual, polite, and emotional tones.
+                    Figure out when to use each phrase. That is whether it's casual chat with friends or more formal situations.
                   </p>
                 </div>
 
@@ -156,7 +153,7 @@ function AnilingoProject() {
                     maxWidth: '800px',
                     margin: '0 auto'
                   }}>
-                    Recall and reproduce the pronunciation and form of learned phrases in future anime viewing or spoken interactions.
+                    It will allow you to be comfortable saying the phrases out loud, so you can use them whenever you're watching anime or talking to Japanese speakers.
                   </p>
                 </div>
               </div>
@@ -196,7 +193,7 @@ function AnilingoProject() {
                 marginBottom: '30px',
                 textAlign: 'center'
               }}>
-                Several innovative language learning platforms have influenced AniLingo's design and functionality:
+                I looked at some cool language learning apps to get ideas for AniLingo:
               </p>
 
               <div style={{ marginLeft: '0', textAlign: 'center' }}>
@@ -215,9 +212,8 @@ function AnilingoProject() {
                     maxWidth: '800px',
                     margin: '0 auto'
                   }}>
-                    FluentU's innovative approach to language learning through real-world videos with interactive subtitles
-                    directly influenced AniLingo's core feature of clickable phrases in context. This immersive learning
-                    method allows users to naturally absorb language while engaging with authentic content they enjoy.
+                    I liked how FluentU lets you click on words in videos to learn them. That's where I got the idea for 
+                    making phrases clickable in anime clips.
                   </p>
                   <div className="mt-4">
                     <img 
@@ -249,9 +245,8 @@ function AnilingoProject() {
                     maxWidth: '800px',
                     margin: '0 auto'
                   }}>
-                    LingQ's powerful interactive transcript system inspired our comprehensive phrase breakdown panel and
-                    personalized "phrase library" feature. Their approach to contextual learning and content organization
-                    helped shape how we present detailed analysis and organize learned phrases for effective review.
+                    LingQ's way of breaking down text and keeping track of what you've learned was super helpful. I used 
+                    that idea to create our phrase breakdown panel and personal phrase collection.
                   </p>
                   <div className="mt-4">
                     <img 
@@ -283,9 +278,7 @@ function AnilingoProject() {
                     maxWidth: '800px',
                     margin: '0 auto'
                   }}>
-                    Quizlet's renowned flashcard interface and spaced repetition system influenced our "quick quiz" feature.
-                    By incorporating these proven learning methods after each phrase introduction, we ensure better retention
-                    and provide users with systematic reinforcement of their learning through engaging practice sessions.
+                    Quizlet's flashcard system is awesome for remembering stuff. I added a similar quick quiz feature by using flashcards in my app.
                   </p>
                   <div className="mt-4">
                     <img 
@@ -338,8 +331,8 @@ function AnilingoProject() {
                 marginBottom: '30px',
                 textAlign: 'center'
               }}>
-                We conducted in-depth interviews with three target users to understand their language learning needs,
-                challenges with existing tools, and their relationship with anime as a learning resource.
+                I talked to three people who might use AniLingo to understand what they need and what problems they're having 
+                with learning Japanese.
               </p>
 
               <div className="user-profiles">
@@ -361,13 +354,13 @@ function AnilingoProject() {
                       <strong>Key Insights:</strong>
                     </p>
                     <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8, marginTop: '10px' }}>
-                      Struggles with understanding formality levels in Japanese speech.
+                      Has trouble figuring out when to use casual vs. formal Japanese.
                     </p>
                     <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8 }}>
-                      Wants daily practice reminders and structured learning paths.
+                      Would love daily reminders and a clear path to follow.
                     </p>
                     <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8 }}>
-                      Interested in learning casual speech patterns from slice-of-life anime.
+                      Wants to learn how people actually talk in slice-of-life anime.
                     </p>
                     <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
                       <img 
@@ -399,13 +392,13 @@ function AnilingoProject() {
                       <strong>Key Insights:</strong>
                     </p>
                     <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8, marginTop: '10px' }}>
-                      Wants achievement-based progression system.
+                      Really likes earning achievements and leveling up.
                     </p>
                     <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8 }}>
-                      Suggested implementing spaced repetition for phrase review.
+                      Suggested adding spaced repetition to help remember phrases.
                     </p>
                     <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8 }}>
-                      Interested in comparing different anime characters' speaking styles.
+                      Wants to see how different anime characters talk differently.
                     </p>
                     <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
                       <img 
@@ -430,19 +423,19 @@ function AnilingoProject() {
                   }}>
                     <h4 style={{ color: '#c770f0' }}>Amit Kulkarni</h4>
                     <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8 }}>
-                      24, Full-Time Worker, Japan Traveler, Avid Anime Fan
+                      23, Full-Time Worker, Japan Traveler, Avid Anime Fan
                     </p>
                     <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8 }}>
                       <strong>Key Insights:</strong>
                     </p>
                     <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8, marginTop: '10px' }}>
-                      Emphasized need for romaji support for beginners.
+                      Thinks we should add romaji for beginners.
                     </p>
                     <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8 }}>
-                      Requested variable playback speeds for complex phrases.
+                      Wants to be able to slow down tricky phrases.
                     </p>
                     <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8 }}>
-                      Suggested cultural context explanations for certain expressions.
+                      Would love to learn about the cultural background of certain phrases.
                     </p>
                     <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
                       <img 
@@ -492,24 +485,23 @@ function AnilingoProject() {
                 <div className="mb-4">
                   <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>Prior Knowledge Activation</h3>
                   <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8, lineHeight: '1.8' }}>
-                    The application leverages users' existing familiarity with common Japanese phrases from anime, 
-                    making explicit connections and correcting misunderstandings through cultural and contextual notes.
+                    The first goal is to understand what you already know from watching anime to help you learn. The app will then use this to explain the phrases and 
+                    add cool cultural notes to help you understand them better.
                   </p>
                 </div>
 
                 <div className="mb-4">
                   <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>Motivation-Driven Engagement</h3>
                   <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8, lineHeight: '1.8' }}>
-                    Combines intrinsic motivation (love for anime) with extrinsic motivation (gamification elements) 
-                    to sustain learner engagement and effort over time.
+                    The app takes your love for anime and combines it with fun learning features to keep you motivated and excited about learning.
                   </p>
                 </div>
 
                 <div className="mb-4">
                   <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>Multimedia Segmentation</h3>
                   <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8, lineHeight: '1.8' }}>
-                    Content is divided into short, focused anime clips with 1-2 key phrases, reducing cognitive load 
-                    and reinforcing learning through visual and auditory channels.
+                    The app breaks down each anime clip into short bits with just 1-2 phrases to learn. This makes it easier 
+                    to focus and remember what you're learning.
                   </p>
                 </div>
               </div>
@@ -549,7 +541,7 @@ function AnilingoProject() {
                 marginBottom: '30px',
                 textAlign: 'center'
               }}>
-                Our application introduces three core features designed to enhance the Japanese learning experience:
+                Here are the three main things AniLingo does to help you learn Japanese:
               </p>
 
               <div style={{ textAlign: 'center' }}>
@@ -569,8 +561,8 @@ function AnilingoProject() {
                     margin: '0 auto',
                     textAlign: 'center'
                   }}>
-                    Short, focused 5-10 second scenes featuring common Japanese phrases with clickable elements showing romaji, 
-                    English translations, and audio pronunciation.
+                    Short 5-10 second clips from anime with common phrases. Click on any phrase to see how it's written, 
+                    what it means, and how to say it.
                   </p>
                 </div>
 
@@ -590,7 +582,8 @@ function AnilingoProject() {
                     margin: '0 auto',
                     textAlign: 'center'
                   }}>
-                    Detailed explanations of phrase usage, cultural context, and emotional nuances, with examples from various anime series.
+                    Learn when and how to use each phrase, plus cool cultural stuff and emotional meanings, with examples 
+                    from different anime.
                   </p>
                 </div>
 
@@ -610,7 +603,7 @@ function AnilingoProject() {
                     margin: '0 auto',
                     textAlign: 'center'
                   }}>
-                    Pokédex-style phrase collection feature with gamification elements, including mastery points and achievement badges.
+                    It's almost like a Pokédex for phrases. Keep track of what you've learned, earn points, and get cool badges as you improve.
                   </p>
                 </div>
               </div>
@@ -649,17 +642,15 @@ function AnilingoProject() {
                 opacity: 0.8,
                 marginBottom: '30px'
               }}>
-                To address our users' needs and pain points, we created detailed sketches for each feature. These early visuals 
-                helped us define the layout, screen transitions, and interaction logic before moving into high-fidelity prototypes.
+                I drew up some quick sketches to figure out how everything would work. These helped me plan out the layout.
               </p>
 
               <div className="sketch-descriptions">
                 <div className="mb-4">
                   <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>Interactive Anime Clips</h3>
                   <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8 }}>
-                    Our sketches mapped out the video player interface with interactive elements, showing how users would 
-                    engage with phrases, access translations, and control playback speed. We emphasized clear visual 
-                    hierarchy and intuitive controls.
+                    I sketched out how the video player would work, showing where you can click on phrases, see translations, 
+                    and control the video speed. I made sure everything was easy to find and use.
                   </p>
                   <div className="mt-4">
                     <img 
@@ -679,8 +670,8 @@ function AnilingoProject() {
                 <div className="mb-4">
                   <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>Contextual Learning Tools</h3>
                   <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8 }}>
-                    We designed the phrase breakdown panel with clear sections for grammar explanations, cultural context, 
-                    and usage examples. The sketch includes space for character profiles and formality indicators.
+                    I designed a panel that breaks down each phrase, showing grammar tips, cultural info, and examples. 
+                    I also added space for character info and how formal each phrase is.
                   </p>
                   <div className="mt-4">
                     <img 
@@ -700,9 +691,8 @@ function AnilingoProject() {
                 <div className="mb-4">
                   <h3 style={{ color: '#c770f0', marginBottom: '15px' }}>Progress Tracking System</h3>
                   <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8 }}>
-                    The sketch outlines the Pokédex-style collection interface, showing how users would track their progress, 
-                    view achievements, and access personalized review schedules. We focused on making the gamification 
-                    elements clear and motivating.
+                    I drew up a collection screen that works like a Pokédex, showing your progress, achievements, and 
+                    when to review phrases. I made sure the game-like features were fun and motivating.
                   </p>
                   <div className="mt-4">
                     <img 
@@ -726,7 +716,7 @@ function AnilingoProject() {
                   fontStyle: 'italic',
                   marginTop: '30px'
                 }}>
-                  These sketches ensured that our feature ideas translated into intuitive, usable interfaces right from the start.
+                  These sketches helped me make sure the app would be easy and fun to use from the start.
                 </p>
               </div>
             </motion.div>
@@ -765,8 +755,7 @@ function AnilingoProject() {
                 marginBottom: '30px',
                 textAlign: 'center'
               }}>
-                Our high-fidelity prototype demonstrates the core features and user interface of AniLingo,
-                showcasing how users will interact with the platform to learn Japanese through anime.
+                Check out our prototype below to see how AniLingo works and try it out for yourself!
               </p>
 
               <div className="prototype-images">
@@ -786,7 +775,7 @@ function AnilingoProject() {
                     Welcoming Login Interface
                   </h4>
                   <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8, textAlign: 'center' }}>
-                    Clean and intuitive login screen featuring our mascot character and simple authentication options.
+                    A friendly login screen.
                   </p>
                 </div>
 
@@ -806,7 +795,7 @@ function AnilingoProject() {
                     Main Learning Dashboard
                   </h4>
                   <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8, textAlign: 'center' }}>
-                    Personalized dashboard featuring lesson cards from various anime series and progress tracking.
+                    Your personal dashboard showing lessons from different anime and how far you've come.
                   </p>
                 </div>
 
@@ -826,7 +815,7 @@ function AnilingoProject() {
                     Interactive Lesson Interface
                   </h4>
                   <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8, textAlign: 'center' }}>
-                    Immersive lesson experience with scene context, grammar explanations, and practice exercises.
+                    A fun lesson screen with the anime scene, grammar tips, and practice exercises.
                   </p>
                 </div>
 
@@ -846,7 +835,7 @@ function AnilingoProject() {
                     Phrase Practice & Progress Tracking
                   </h4>
                   <p style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8, textAlign: 'center' }}>
-                    Detailed phrase practice with pronunciation, context, and emotional response tracking.
+                    Practice saying phrases, learn about the context, and track how well you're doing.
                   </p>
                 </div>
               </div>
@@ -886,8 +875,8 @@ function AnilingoProject() {
                 marginBottom: '30px',
                 textAlign: 'center'
               }}>
-                After implementing our core features, we conducted a second round of testing with our original participants
-                to validate our solutions and gather final feedback.
+                After building the main features, I tested the app again with our original users to see what they thought 
+                and what we could improve.
               </p>
 
               <div className="user-testing-videos mb-5">
@@ -927,8 +916,8 @@ function AnilingoProject() {
                     }}>
                       <h4 style={{ color: '#c770f0', marginBottom: '10px' }}>Kerrick's Insights</h4>
                       <p style={{ color: 'white', fontSize: '1rem', opacity: 0.8 }}>
-                        Praised the slow-motion feature for complex phrases and suggested adding more intermediate-level content.
-                        Particularly enjoyed the formality indicators and cultural context explanations.
+                        Loved being able to slow down tricky phrases and wanted more intermediate content. Really liked 
+                        the formality tips and cultural notes.
                       </p>
                     </div>
                   </Col>
@@ -964,8 +953,8 @@ function AnilingoProject() {
                     }}>
                       <h4 style={{ color: '#c770f0', marginBottom: '10px' }}>Ajay's Insights</h4>
                       <p style={{ color: 'white', fontSize: '1rem', opacity: 0.8 }}>
-                        Found the achievement system motivating and recommended expanding the character personality profiles.
-                        Appreciated the spaced repetition implementation for phrase review.
+                        The achievement system was super motivating! Wanted more character profiles and liked how the 
+                        spaced repetition helped remember phrases.
                       </p>
                     </div>
                   </Col>
@@ -1001,8 +990,8 @@ function AnilingoProject() {
                     }}>
                       <h4 style={{ color: '#c770f0', marginBottom: '10px' }}>Amit's Insights</h4>
                       <p style={{ color: 'white', fontSize: '1rem', opacity: 0.8 }}>
-                        Highlighted the effectiveness of the cultural notes and romaji support for beginners.
-                        Suggested adding more varied anime genres for diverse learning contexts.
+                        The cultural notes and romaji support were really helpful for beginners. Suggested adding more 
+                        different types of anime for variety.
                       </p>
                     </div>
                   </Col>
@@ -1021,9 +1010,9 @@ function AnilingoProject() {
                 }}>
                   <h4 style={{ color: '#c770f0', marginBottom: '15px' }}>Interactive Anime Clips</h4>
                   <ul style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8, listStyle: 'none', padding: 0 }}>
-                    <li style={{ marginBottom: '10px' }}>✓ Added slow-motion playback option for complex phrases</li>
-                    <li style={{ marginBottom: '10px' }}>✓ Implemented one-click switching between romaji and hiragana</li>
-                    <li>✓ Enhanced cultural context tooltips based on user feedback</li>
+                    <li style={{ marginBottom: '10px' }}>✓ Added slow-motion for tricky phrases</li>
+                    <li style={{ marginBottom: '10px' }}>✓ Made it easy to switch between romaji and hiragana</li>
+                    <li>✓ Added more cultural tips based on feedback</li>
                   </ul>
                 </div>
 
@@ -1036,9 +1025,9 @@ function AnilingoProject() {
                 }}>
                   <h4 style={{ color: '#c770f0', marginBottom: '15px' }}>Contextual Learning Tools</h4>
                   <ul style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8, listStyle: 'none', padding: 0 }}>
-                    <li style={{ marginBottom: '10px' }}>✓ Added formality level indicators for each phrase</li>
-                    <li style={{ marginBottom: '10px' }}>✓ Integrated character personality profiles for context</li>
-                    <li>✓ Expanded cultural notes section based on user requests</li>
+                    <li style={{ marginBottom: '10px' }}>✓ Added formality level tips for each phrase</li>
+                    <li style={{ marginBottom: '10px' }}>✓ Added character profiles for context</li>
+                    <li>✓ Added more cultural notes</li>
                   </ul>
                 </div>
 
@@ -1050,9 +1039,9 @@ function AnilingoProject() {
                 }}>
                   <h4 style={{ color: '#c770f0', marginBottom: '15px' }}>Progress Tracking System</h4>
                   <ul style={{ color: 'white', fontSize: '1.1rem', opacity: 0.8, listStyle: 'none', padding: 0 }}>
-                    <li style={{ marginBottom: '10px' }}>✓ Implemented daily learning streaks and reminders</li>
-                    <li style={{ marginBottom: '10px' }}>✓ Added achievement badges for different learning milestones</li>
-                    <li>✓ Created personalized review schedules based on user performance</li>
+                    <li style={{ marginBottom: '10px' }}>✓ Added daily streaks and reminders</li>
+                    <li style={{ marginBottom: '10px' }}>✓ Added achievement badges</li>
+                    <li>✓ Made review schedules based on how you're doing</li>
                   </ul>
                 </div>
               </div>
@@ -1065,9 +1054,8 @@ function AnilingoProject() {
                 fontStyle: 'italic',
                 textAlign: 'center'
               }}>
-                The final testing phase validated our approach, with users reporting increased engagement and better retention
-                of phrases compared to traditional learning methods. The combination of familiar anime content with structured
-                learning tools proved especially effective for maintaining long-term motivation.
+                The final tests went great! Users said they were more engaged and remembered phrases better than with 
+                traditional methods. Mixing anime with structured learning really helped them stay motivated.
               </p>
             </motion.div>
 
@@ -1105,8 +1093,7 @@ function AnilingoProject() {
                 marginBottom: '30px',
                 textAlign: 'center'
               }}>
-                Explore our interactive final prototype below, incorporating user feedback and refined features
-                for an enhanced learning experience.
+                Try out our final prototype below! I've added all the feedback from users to make it even better.
               </p>
 
               <div style={{ 
@@ -1202,9 +1189,9 @@ function AnilingoProject() {
                 lineHeight: '1.8',
                 opacity: 0.8
               }}>
-                This project represents a personal journey in combining my passion for anime with language education. 
-                Having experienced the challenge of learning Japanese through traditional methods, I wanted to create 
-                a tool that I wish I had when starting my language learning journey.
+                This project is really personal to me. I've been learning Japanese myself and wished I had a tool like 
+                this when I started. I love anime, and I wanted to make something that would help others learn Japanese 
+                in a fun way.
               </p>
 
               <p style={{ 
@@ -1214,9 +1201,9 @@ function AnilingoProject() {
                 opacity: 0.8,
                 marginTop: '20px'
               }}>
-                Through user research and applying learning principles, I've learned that effective educational technology 
-                must balance entertainment with pedagogical value. The feedback from potential users has been invaluable 
-                in shaping features that address real learning needs while maintaining engagement.
+                Through talking to users and learning about education, I've found that the best learning apps need to 
+                be both fun and helpful. The feedback from potential users has been amazing in helping me create features 
+                that actually help people learn while keeping them interested.
               </p>
             </motion.div>
           </motion.div>
